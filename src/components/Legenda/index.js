@@ -17,60 +17,61 @@ const Legenda = () => {
     meiaPorcao: true
   })
 
-  const clicaLegenda = useCallback(
-    (target, event) => {
-      active[target] = !active[target]
-      setActive(active)
-    },
-    [active]
-  )
+  const clicaLegenda = useCallback((target, event) => {
+    if (event && event.detail !== 1) return
+
+    setActive((state) => ({
+      ...state,
+      [target]: !state[target]
+    }))
+  }, [])
 
   return (
     <S.Container>
       <S.Item
         mLeft="0.25rem"
-        onClick={clicaLegenda.bind(this, 'favoritos')}
-        active={active['favoritos']}
+        onClick={(event) => clicaLegenda('favoritos', event)}
+        checked={active['favoritos']}
       >
         <AiFillStar size={15} className="icon--ai" />
         <span>Favoritos</span>
       </S.Item>
       <S.Item
         mLeft="-2px"
-        onClick={clicaLegenda.bind(this, 'usarShoyu')}
-        active={active['usarShoyu']}
+        onClick={(event) => clicaLegenda('usarShoyu', event)}
+        checked={active['usarShoyu']}
       >
         <WiRaindrop size={25} />
         <span>Usar Shoyu</span>
       </S.Item>
       <S.Item
         mLeft="0.25rem"
-        onClick={clicaLegenda.bind(this, 'vegetariano')}
-        active={active['vegetariano']}
+        onClick={(event) => clicaLegenda('vegetariano', event)}
+        checked={active['vegetariano']}
       >
         <AiFillApple size={15} className="icon--ai" />
         <span>Vegetariano</span>
       </S.Item>
       <S.Item
         mLeft="0.25rem"
-        onClick={clicaLegenda.bind(this, 'semLactose')}
-        active={active['semLactose']}
+        onClick={(event) => clicaLegenda('semLactose', event)}
+        checked={active['semLactose']}
       >
         <IconNoLactose />
         <span>Sem Lactose</span>
       </S.Item>
       <S.Item
         mLeft="0.25rem"
-        onClick={clicaLegenda.bind(this, 'semGluten')}
-        active={active['semGluten']}
+        onClick={(event) => clicaLegenda('semGluten', event)}
+        checked={active['semGluten']}
       >
         <IconNoGluten />
         <span>Sem Glúten</span>
       </S.Item>
       <S.Item
         mLeft="0.25rem"
-        onClick={clicaLegenda.bind(this, 'meiaPorcao')}
-        active={active['meiaPorcao']}
+        onClick={(event) => clicaLegenda('meiaPorcao', event)}
+        checked={active['meiaPorcao']}
       >
         <span>Meia Porção</span>
       </S.Item>
