@@ -1,0 +1,2039 @@
+﻿{
+    "nome": "bebidas",
+    "categorias": [
+        {
+            "nome": "Não Alcoólicos",
+            "itens": [
+                {
+                    "nome": "Água mineral prata",
+                    "preco": "R$ 7,00",
+                    "descricao": "Com gás ou sem gás (310ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Refrigerante (350ml)",
+                    "preco": "R$ 7,00",
+                    "descricao": "Coca-cola*, Guaraná Antartica*, Sprite zero, schweppes citrus e Tônica Antartica Diet.",
+                    "observacoes": "* Disponíveis na versãoo zero",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Suco Natural (320 ml)",
+                    "preco": "R$ 12,00",
+                    "descricao": "Laranja, limão, melancia, abacaxi, abacax com hortelã, maracujá, manga, morango, tomate (300ml); tangerina (Suj. a disponibilidade) e limonada suíça.",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Água de Coco natural",
+                    "preco": "",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Chá de Hibisco c/ Limão Tahiti",
+                    "preco": "",
+                    "descricao": "Chá gelado de hibisco com limão tahiti (levemente adoçado com açúcar demerara)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Chá de Cidreira c/ Limão Tahiti",
+                    "preco": "",
+                    "descricao": "Chá gelado de Erva-cidreira c/ Limão Tahiti (levemente adoçado com açúcar demerara)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Chá de hortelã",
+                    "preco": "",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Banchá",
+                    "preco": "",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Fruit Cocktail",
+                    "preco": "",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": true,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Love Lichia",
+                    "preco": "R$ 19,00",
+                    "descricao": "Lichia e suco de limão",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": true,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Expresso",
+                    "preco": "R$ 5,50",
+                    "descricao": "Curto, expresso, machiatto ou com chantily.",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Cappuccino",
+                    "preco": "R$ 6,00",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Descafeinado",
+                    "preco": "R$ 6,00",
+                    "descricao": "",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "DRAFT & BEERS",
+            "itens": [
+                {
+                    "nome": "Chopp Heineken",
+                    "preco": "R$ 11,00",
+                    "descricao": "Chopp Heineken (350ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Stella Artois",
+                    "preco": "R$ 12,00",
+                    "descricao": "Cerveja Stella Artois (275ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Heineken",
+                    "preco": "R$ 13,00",
+                    "descricao": "Cerveja Heineken (330ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Cerpa",
+                    "preco": "R$ 15,00",
+                    "descricao": "Cerveja Cerpa (350ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Kirin Ichiban",
+                    "preco": "R$ 14,00",
+                    "descricao": "Cerveja Kirin Ichiban (355ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "Sapporo",
+                    "preco": "R$ 20,00",
+                    "descricao": "Cerveja Sapporo Long Neck (330ml)",
+                    "observacoes": "",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "DRINKS",
+            "subcategoria": [
+                {
+                    "nome": "GIN DRINKS",
+                    "itens": [
+                        {
+                            "nome": "Classic",
+                            "preco": "R$ 36,00",
+                            "descricao": "Suco de limão siciliano ou limão tahiti, gin,  pepino, tônica e gelo.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Only Lime",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Suco de limão siciliano e limão tahiti, gin,  tônica e gelo.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Tangerine Lime",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Suco de tangerina, limão siciliano, gin,  tônica e gelo.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Caju Lime",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Suco de limão siciliano, caju, alecrim, gin,  tônica e gengibre.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "FRESH TEA",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Suco de limão tahiti, chá de hibisco com limão tahiti não adoçado, gin, tônica e gelo.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Passion Fruit",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Suco de maracujá, gin e tíonica.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Aromatic",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Alecrim, rodelas de limão siciliano e tahiti, gin e tônica.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Your Gin Combination",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Sua combinação de marca de gin, frutas e/ou ervas/aromas e infusões. FRUTAS (em suco, rodelas ou twist): limão tahiti, limão siciliano, tangerina, cajú e maracujá. ERVAS/AROMAS: alecrim, flor de hibisco, manjericão, hortelã, gengibre e pepino. INFUSÕES: hibisco com limão ou cidreira com limão; ",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 36 Hendrick’s R$ 45",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "BRAZILIAN DRINKS",
+                    "itens": [
+                        {
+                            "nome": "Yellow Fruit",
+                            "preco": "",
+                            "descricao": "Caipirinha ou caipirosca de cajú, tangerina e limão siciliano.",
+                            "observacoes": "Jam Classic, Sagatiba e Smirnoff, Kyomaiko e Absolut",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Ginger Citrus",
+                            "preco": "",
+                            "descricao": "Caipirinha ou caipirosca de abacaxi. Limão, maracujá, lima-da-persia, hortelã e gengibre.cajú, tangerina e limão siciliano.",
+                            "observacoes": "Jam Classic, Sagatiba e Smirnoff; Kyomaiko e Absolut",
+                            "legenda": {
+                                "favorito": true,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Spicy Jam",
+                            "preco": "",
+                            "descricao": "Caipirinha ou caipirosca de tangerina e pimenta-dedo-de-moça sem sementes.",
+                            "observacoes": "Jam Classic, Sagatiba e Smirnoff; Kyomaiko e Absolut",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "Your Brazilian Drink Combination",
+                            "preco": "",
+                            "descricao": "Sua escolha entre vodca, saquê ou aguardente combinado com sua preferênciação de frutas e/ou ervas/aromas. FRUTAS NATURAIS: abacaxi, maracujá, lichia, lima-da-pérsia, tangerina, caju, melancia, limão tahiti e siciliano (suj. a disponibilidade). FRUTAS CONGELADAS: morango, amora e frutas vermelhas (suj. a disponibilidade); ERVAS / AROMAS: manjericão, gengibre, hortelã e alecrim.",
+                            "observacoes": "Jam Classic, Sagatiba e Smirnoff; Kyomaiko e Absolut",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "CLASSIC DRINKS",
+                    "itens": [
+                        {
+                            "nome": "Dry Martini",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "Gin, vermouth e azeitona",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 32 Hendrick’s R$ 38 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "MARGARITA",
+                            "preco": " R$ 30,00 ",
+                            "descricao": "José Cuervo, suco de limão e Cointreau  ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "KIR ROYAL ",
+                            "preco": " R$ 34,00 ",
+                            "descricao": "Chandon Brut e licor de cassis",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "APEROL SPRITZ ",
+                            "preco": " R$ 36,00 ",
+                            "descricao": "Aperol, Chandon Brut, água gaseificada e bitter   de laranja. ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "NEGRONI ",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "Gin mesclado com Campari, Vermouth Carpano Clássico e bitter de laranja.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 32 Hendrick’s R$ 38",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "COSMOPOLITAN",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Vodka, licor triple sec, xarope de cranberry  e suco natural de limão tahiti",
+                            "observacoes": "Smirnoff Red R$ 28 Absolut / Ketel One R$ 32 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "BLOODY MARY",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Vodka com suco de tomate temperado.",
+                            "observacoes": "Smirnoff Red R$ 28 Absolut / Ketel One R$ 32 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "SIGNATURE DRINKS",
+                    "itens": [
+                        {
+                            "nome": "SAMURAI MARTINI",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "Gin, saquê Jam Classic, licor de lichia e extrato de lichia.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 32 Hendrick’s R$ 38",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "AZUMA JAM",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Frutas cítricas, Curaçau Red e saquê Jam Classic.",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "FROZEN LICHEE ",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Lichia e vodca.",
+                            "observacoes": "Smirnoff Red R$ 28 Absolut / Ketel One R$ 32",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "SPECIAL JAM",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Saquê Jam Classic, lichia e licor de melão.",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "UNIQUE COSMOPOLITAN",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Vodka, Chandon Brut, cramberry e suco de limão.",
+                            "observacoes": "Smirnoff Red R$ 28 Absolut / Ketel One R$ 32",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "TEN FRESH",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "Gin, suco de limão e xarope de açúcar.",
+                            "observacoes": "Gordons / Bombay / Tanqueray Dry R$ 32 Hendrick’s R$ 38",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Sakes",
+            "itens": [
+                {
+                    "nome": "JAM CLASSIC",
+                    "preco": " R$ 21,00 ",
+                    "descricao": "Refrescante e seco - (BRA - 15,5%)",
+                    "observacoes": "Taça (150ml) R$ 21      Garrafa (740ml) R$ 86 ",
+                    "legenda": {
+                        "favorito": true,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "JAM EXCELLENCE",
+                    "preco": " R$ 26,00 ",
+                    "descricao": "Premium (polimento de 40% do arroz), levemente  frutado e refrescante (BRA - 15% alc.)",
+                    "observacoes": "Taça (150ml) R$ 26      Garrafa (740ml) R$ 106",
+                    "legenda": {
+                        "favorito": true,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "KYOMAIKO NAMACHOZO ",
+                    "preco": " R$ 25,00 ",
+                    "descricao": " Leve, refrescante, delicado, bebida colocada em  descanso sem pasteurização (JPN – 14% alc.)   ",
+                    "observacoes": "Taça (150ml) R$ 25      Garrafa (720ml) R$ 109",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "OZEKI DRY",
+                    "preco": " R$ 26,00 ",
+                    "descricao": "Intensa refrescância, seco mas sabor equilibrado do arroz ao final do gole, excelente acompanhante  para a refeição  (EUA – 14,5% alc.)",
+                    "observacoes": "Taça (150ml) R$ 26      Garrafa (750ml) R$ 121",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUTSURU JUNMAI DRY",
+                    "preco": " R$ 32,00 ",
+                    "descricao": "Maior sabor de arroz, seco, bebida versátil que  acompanha qualquer tipo de prato  (JPN – 15% alc.)",
+                    "observacoes": "Taça (150ml) R$ 28      Garrafa (720ml) R$ 148",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUSHIKA TRADICIONAL",
+                    "preco": " R$ 28,00 ",
+                    "descricao": "Refrescante, finalização suave, percepção intensa  de álcool é apreciada pelos que gostam de bebidas  mais fortes  (JPN – 15% alc.) ",
+                    "observacoes": "Taça (150ml) R$ 28      Garrafa (720ml) R$ 126",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "KIZAKURA",
+                    "preco": " R$ 26,00 ",
+                    "descricao": "Levemente seco, aroma suave e corpo leve  (JPN – 14% alc.) ",
+                    "observacoes": "Taça (150ml) R$ 26      Garrafa (720ml) R$ 106",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "GEKKEIKAN SILVER",
+                    "preco": "R$ 34,00",
+                    "descricao": "Tipo junmai que comumente tem característica de sabor, porém este é refrescante e seco para agradar bem o paladar dos americanos (EUA – 14,6% alc.)",
+                    "observacoes": "Taça (150ml) R$ 34      Garrafa (720ml) R$ 148",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUSHIKA JUNMAI SUPER DRY",
+                    "preco": " R$ 38,00 ",
+                    "descricao": "Refrescante, super seco, indicado para apreciar o  sabor e também para acompanhar pratos de sabor  intenso ou gordurosos (JPN – 14,5% alc.)",
+                    "observacoes": "Taça (150ml) R$ 38      Garrafa (720ml) R$ 159",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUSHIKA  YAMADANISHIKI",
+                    "preco": " R$ 42,00 ",
+                    "descricao": "Refrescante e saboroso, utiliza o arroz yamadanishiki considerado o melhor arroz para produção de saquê  (JPN – 14% alc.)  ",
+                    "observacoes": "Taça (150ml) R$ 42      Garrafa (720ml) R$ 179",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "GEKKEIKAN BLACK ",
+                    "preco": " R$ 44,00 ",
+                    "descricao": "Blend de dois saquês junmai, presença maior de  sabor de arroz, com sabor preparado para o público  americano que está acostumado com percepção mais intensa do álcool (EUA – 15,6% alc.)",
+                    "observacoes": "Taça (150ml) R$ 44      Garrafa (720ml) R$ 184",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "KIKUSUI NO KARAKUSHI",
+                    "preco": " R$ 39,00 ",
+                    "descricao": "Moderadamente encorpado, suavidade notável e  finalização seca  (JPN – 15% alc.) ",
+                    "observacoes": "Taça (150ml) R$ 39      Garrafa (720ml) R$ 174",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUSHIKA GOLD",
+                    "preco": " R$ 211,00 ",
+                    "descricao": "Refrescante, com flocos de ouro, ideal para  comemorações e festividades pelo seu visual  (JPN – 14% alc.)",
+                    "observacoes": "Garrafa (720ml)",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                },
+                {
+                    "nome": "HAKUTSURU JOSEN DRY",
+                    "preco": " R$ 28,00 ",
+                    "descricao": "Refrescante, seco, percepção inicial de grande  impacto, excelente para acompanhamento  (JPN – 15,3% alc.) de refeição",
+                    "observacoes": "Taça (150ml) R$ 28      Garrafa (1800ml) R$ 256",
+                    "legenda": {
+                        "favorito": false,
+                        "meiaPorcao": false,
+                        "semLactose": false,
+                        "semGluten": false,
+                        "vegano": false,
+                        "usarShoyu": false
+                    },
+                    "imagens": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "WINES",
+            "subcategoria": [
+                {
+                    "nome": "White Wine",
+                    "itens": [
+                        {
+                            "nome": "LAGOALVA BRANCO",
+                            "preco": " R$ 74,00 ",
+                            "descricao": "(PRT - 12,5% alc.) - 375 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "PINOT GRIGIO VENETO",
+                            "preco": " R$ 77,00 ",
+                            "descricao": "(ITA - 12% alc.) - 375 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALAMOS SAUVIGNON BLANC ",
+                            "preco": " R$ 112,00 ",
+                            "descricao": "  (ARG - 12,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALAMOS VIOGNIER",
+                            "preco": " R$ 112,00 ",
+                            "descricao": " (ARG - 13% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ANIMAL CHARDONNAY ERNESTO CATENA",
+                            "preco": " R$ 178,00 ",
+                            "descricao": "  (ARG - 13,7% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CATENA CHARDONNAY ",
+                            "preco": " R$ 198,00 ",
+                            "descricao": "(ARG - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CARMEN CHARDONNAY ",
+                            "preco": " R$ 110,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "MONTES RESERVA SAUVIGNON BLANC",
+                            "preco": " R$ 132,00 ",
+                            "descricao": "(CHL - 13% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "SANTA ALVARA CHARDONNAY",
+                            "preco": " R$ 99,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "SANTA ALVARA SAUVIGNON BLANC",
+                            "preco": " R$ 99,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ORVIETO CLASSICO BONACHI",
+                            "preco": " R$ 118,00 ",
+                            "descricao": "(ITA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "PINOT GRIGIO BONACCHI IGT",
+                            "preco": " R$ 122,00 ",
+                            "descricao": "(ITA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "CHAMPAGNE & SPARKLING WINE",
+                    "itens": [
+                        {
+                            "nome": "BABY CHANDON",
+                            "preco": "",
+                            "descricao": "Rosé ou Bruit - 187 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CHANDON RÉSERVE BRUT",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "(BRA - 12% alc.)",
+                            "observacoes": "Taça (150ml) R$ 32      Garrafa (1800ml) R$ 136",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CHANDON BRUT ROSÉ",
+                            "preco": " R$ 159,00 ",
+                            "descricao": "(BRA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "VALLONTANO BRUT",
+                            "preco": " R$ 149,00 ",
+                            "descricao": "(BRA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "VEUVE CLICQUOT BRUT",
+                            "preco": " R$ 358,00 ",
+                            "descricao": "(FRA - 12% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "MOËT BRUT IMPERIAL",
+                            "preco": " R$ 346,00 ",
+                            "descricao": "(FRA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "MOËT ROSÉ IMPERIAL ",
+                            "preco": " R$ 408,00 ",
+                            "descricao": "(FRA - 12% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "BLANC DE BLANCS COMTE D’ORMONT BRUT",
+                            "preco": " R$ 132,00 ",
+                            "descricao": "(FRA - 10,51% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "ROSE WINE",
+                    "itens": [
+                        {
+                            "nome": "CARMEN CLASSIC ROSÉ",
+                            "preco": " R$ 112,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALTERA GRENACHE",
+                            "preco": " R$ 119,00 ",
+                            "descricao": "(FRA - 13% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "RED WINE",
+                    "itens": [
+                        {
+                            "nome": "ALAMOS RED BLEND (Catera Zapata)",
+                            "preco": "",
+                            "descricao": "",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALAMOS PINOT NOIR",
+                            "preco": " R$ 148,00 ",
+                            "descricao": "(ARG - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALAMOS MALBEC",
+                            "preco": " R$ 74,00 ",
+                            "descricao": "(ARG - 13% alc.) - 375 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "VIÑA BUJANDA TINTO",
+                            "preco": " R$ 77,00 ",
+                            "descricao": "(ESP - 13% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CARMEN CARMENERE",
+                            "preco": " R$ 112,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CASA LAPOSTOLLE CABERNET SAUVIGNON",
+                            "preco": " R$ 158,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml ",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "MONTES RESERVA CABERNET SAUVIGNON",
+                            "preco": " R$ 128,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "SANTA ALVARA CABERNET",
+                            "preco": " R$ 104,00 ",
+                            "descricao": "(CHL - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "VALDEMOREDA TEMPRANILLO",
+                            "preco": " R$ 113,00 ",
+                            "descricao": "(ESP - 13% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ALTANO DOURO",
+                            "preco": " R$ 128,00 ",
+                            "descricao": "(PRT - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CATENA MALBEC ",
+                            "preco": " R$ 177,00 ",
+                            "descricao": "(ARG - 13,5% alc.) - 750 ml",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "SPIRITS",
+            "subcategoria": [
+                {
+                    "nome": "Whisky",
+                    "itens": [
+                        {
+                            "nome": "JOHNNIE WALKER RED LABEL ",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "8 anos",
+                            "observacoes": "Dose (50ml) R$ 28      Garrafa (1lt) R$ 189",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "JOHNNIE WALKER BLACK LABEL",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "12 anos",
+                            "observacoes": "Dose (50ml) R$ 32      Garrafa (1lt) R$ 268 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "JOHNNIE WALKER DOUBLE BLACK",
+                            "preco": " R$ 34,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 34      Garrafa (1lt) R$ 295",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "JACK DANIEL’S",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "Whisky Standart",
+                            "observacoes": "Dose (50ml) R$ 28      Garrafa (1lt) R$ 239",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "OLD PARR",
+                            "preco": "",
+                            "descricao": "12 anos ",
+                            "observacoes": "Dose (50ml)         Garrafa (1lt)",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "Gin",
+                    "itens": [
+                        {
+                            "nome": "GORDONS",
+                            "preco": " R$ 24,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 24      Garrafa (750ml) R$ 165 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "BOMBAY",
+                            "preco": " R$ 26,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 26      Garrafa (750ml) R$ 211 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "TANQUERAY DRY",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 28      Garrafa (750ml) R$ 222 ",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "HENDRIK'S",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 32      Garrafa (750ml) R$ 287",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "VODKA",
+                    "itens": [
+                        {
+                            "nome": "SMIRNOFF RED",
+                            "preco": " R$ 22,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 22      Garrafa (998ml) R$ 98",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "KETEL ONE",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 28      Garrafa (1lt) R$ 179",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "ABSOLUT",
+                            "preco": " R$ 28,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 28      Garrafa (1lt) R$ 188",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "CIROC",
+                            "preco": " R$ 32,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 32      Garrafa (750ml) R$ 247",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "BITTER",
+                    "itens": [
+                        {
+                            "nome": "CAMPARI",
+                            "preco": " R$ 25,00 ",
+                            "descricao": "Dose (50ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "TEQUILA",
+                    "itens": [
+                        {
+                            "nome": "JOSÉ CUERVO",
+                            "preco": " R$ 21,00 ",
+                            "descricao": "Prata / Ouro",
+                            "observacoes": "Dose (50ml) R$ 21      Garrafa (750ml) R$ 119",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "Aguardente",
+                    "itens": [
+                        {
+                            "nome": "SAGATIBA",
+                            "preco": " R$ 18,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 18      Garrafa (700ml) R$ 88",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "NEGA FULÔ",
+                            "preco": " R$ 19,00 ",
+                            "descricao": "",
+                            "observacoes": "Dose (50ml) R$ 19      Garrafa (750ml) R$ 112",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "AFTERS",
+            "subcategoria": [
+                {
+                    "nome": "LIQUOR",
+                    "itens": [
+                        {
+                            "nome": "BAILEY'S",
+                            "preco": " R$ 20,00 ",
+                            "descricao": "Dose (50ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "PORTO ADRIANO",
+                            "preco": " R$ 21,00 ",
+                            "descricao": "Dose (80ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "LIQUOR 43",
+                            "preco": " R$ 20,00 ",
+                            "descricao": "Dose (50ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "LEMONCELLO",
+                            "preco": " R$ 20,00 ",
+                            "descricao": "Dose (50ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        },
+                        {
+                            "nome": "BRANQUINHO JAM",
+                            "preco": " R$ 14,00 ",
+                            "descricao": "Servido gelado, à base de sorvete com café - Dose (80ml)",
+                            "observacoes": "",
+                            "legenda": {
+                                "favorito": false,
+                                "meiaPorcao": false,
+                                "semLactose": false,
+                                "semGluten": false,
+                                "vegano": false,
+                                "usarShoyu": false
+                            },
+                            "imagens": [
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "comidas": [
+
+    ]
+}
