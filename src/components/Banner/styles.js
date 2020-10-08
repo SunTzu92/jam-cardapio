@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 2rem;
 
   .slick-prev,
   .slick-next {

@@ -8,8 +8,8 @@ const Banner = () => {
   const settings = {
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 1
-    // autoplay: true
+    slidesToScroll: 1,
+    autoplay: true
   }
 
   return (
@@ -23,19 +23,11 @@ const Banner = () => {
       </S.Fallback>
 
       <Slider settings={settings}>
-        <S.Content bg="https://cutt.ly/OgruYcd"></S.Content>
-        <S.Content bg="https://cutt.ly/ygruIlL">
-          <S.Fallback />
-        </S.Content>
-        <S.Content bg="https://cutt.ly/bgruICW">
-          <S.Fallback />
-        </S.Content>
-        <S.Content bg="https://cutt.ly/JgruOu0">
-          <S.Fallback />
-        </S.Content>
-        <S.Content bg="https://cutt.ly/9gruOFv">
-          <S.Fallback />
-        </S.Content>
+        <S.Content bg="https://cutt.ly/OgruYcd" />
+        <S.Content bg="https://cutt.ly/ygruIlL" />
+        <S.Content bg="https://cutt.ly/bgruICW" />
+        <S.Content bg="https://cutt.ly/JgruOu0" />
+        <S.Content bg="https://cutt.ly/9gruOFv" />
       </Slider>
     </S.Container>
   )
