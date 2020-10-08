@@ -7,29 +7,33 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin-bottom: 2rem;
 `
 
-export const Button = styled.button`
+export const Item = styled.button`
+  display: flex;
+  align-items: center;
   background-color: #fff;
   padding: 0.5rem;
-  border: 1px solid transparent;
+  border: none;
   margin: 0 1rem;
   color: #455a64;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
   cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 700;
 
-  border-color: ${({ active }) => (active ? '#455a64' : 'transparent')};
-
-  &:hover {
-    border: 1px solid #455a64;
+  & span {
+    margin-left: ${({ mLeft }) => mLeft};
   }
-`
 
-export const Divider = styled.span`
-  display: inline-block;
-  height: 30%;
-  width: 2px;
-  background-color: rgb(69 90 100 / 50%);
+  & .icon--gr {
+    position: relative;
+    top: -1px;
+  }
+
+  & .icon--ai {
+    position: relative;
+    top: -1px;
+  }
 `

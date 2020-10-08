@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Menu from './components/Menu'
 import Banner from './components/Banner'
 import Cardapio from './components/Cardapio'
+import Legenda from './components/Legenda'
 
 const Container = styled.div`
   display: flex;
@@ -17,6 +18,7 @@ function App() {
     <Container>
       <Banner />
       <Menu />
+      <Legenda />
       <Cardapio />
     </Container>
   )
