@@ -1,4 +1,5 @@
-﻿{
+﻿[
+  {
     "nome": "bebidas",
     "categorias": [
         {
@@ -2032,8 +2033,11 @@
                 }
             ]
         }
-    ],
-    "comidas": [
-
     ]
-}
+  },
+  {
+    "nome": "comidas",
+    "categorias": [
+    ]
+  }
+]

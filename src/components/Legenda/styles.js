@@ -36,4 +36,6 @@ export const Item = styled.button`
     position: relative;
     top: -1px;
   }
+
+  text-decoration: ${({ checked }) => (checked ? 'none' : 'line-through')};
 `
