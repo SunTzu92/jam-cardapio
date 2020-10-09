@@ -26,7 +26,7 @@ export const Item = styled.button`
   font-family: 'Cormorant', serif;
 
   & span {
-    margin-left: ${({ mLeft }) => mLeft};
+    margin-left: 0.25rem;
   }
 
   & .icon--gr {

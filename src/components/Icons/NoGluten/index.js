@@ -1,7 +1,7 @@
 ﻿import React from 'react'
 
-import noGluten from '../../../assets/icons/icon-no-gluten.png'
-import noGlutenWhite from '../../../assets/icons/icon-no-gluten-white.png'
+import noGluten from '../../../assets/icons/icon_jam_sem_gluten--black.png'
+import noGlutenWhite from '../../../assets/icons/icon_jam_sem_gluten--white.png'
 
 import * as S from './styles'
 

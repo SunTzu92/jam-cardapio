@@ -56,5 +56,5 @@ export const Icons = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0 3rem;
+  padding: 0.3rem 3rem;
 `

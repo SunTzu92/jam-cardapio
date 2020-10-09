@@ -1,7 +1,7 @@
 ﻿import React from 'react'
 
-import noLactose from '../../../assets/icons/icon-no-lactose.png'
-import noLactoseWhite from '../../../assets/icons/icon-no-lactose-white.png'
+import noLactose from '../../../assets/icons/icon_jam_sem_lactose--black.png'
+import noLactoseWhite from '../../../assets/icons/icon_jam_sem_lactose--white.png'
 
 import * as S from './styles'
 
