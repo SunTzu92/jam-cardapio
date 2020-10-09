@@ -1,11 +1,15 @@
 ﻿import React from 'react'
 
+import ToEat from './ToEat'
+
 import * as S from './styles';
 
 function Cardapio() {
-  return <S.Container>
-    <h1>Screen Cardapio</h1>
-  </S.Container>
+  return (
+    <S.Container>
+      <ToEat />
+    </S.Container>
+  )
 }
 
 export default Cardapio

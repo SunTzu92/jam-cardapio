@@ -92,6 +92,7 @@ export const Description = styled.div`
 `
 
 export const Text = styled.span`
+  font-family: 'Cormorant', serif;
   font-size: 2rem;
   color: #fff;
 `

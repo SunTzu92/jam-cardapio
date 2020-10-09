@@ -1,12 +1,14 @@
 ﻿import styled from 'styled-components'
 
 export const Container = styled.div`
+
   display: flex;
   background-color: #fff;
   height: 100px;
   justify-content: center;
   align-items: center;
   color: #fff;
+  margin-bottom: 3rem;
 `
 
 export const Item = styled.button`
@@ -20,8 +22,8 @@ export const Item = styled.button`
   text-transform: uppercase;
   transition: all 0.3s ease-in;
   cursor: pointer;
-  font-size: 0.7rem;
   font-weight: 700;
+  font-family: 'Cormorant', serif;
 
   & span {
     margin-left: ${({ mLeft }) => mLeft};

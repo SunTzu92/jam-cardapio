@@ -1,11 +1,14 @@
 ﻿import React from 'react'
 import ReactSlider from 'react-slick'
 
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
 import * as S from './styles'
 
-function Slider({ children, settings }) {
+function Slider({ className, children, settings }) {
   return (
-    <S.Container>
+    <S.Container className={className}>
       <ReactSlider {...settings}>{children}</ReactSlider>
     </S.Container>
   )
