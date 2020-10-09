@@ -8,4 +8,11 @@ export const Container = styled.figure`
     height: 20px;
     object-fit: contain;
   }
+
+  @media (max-width: 768px) {
+    & img {
+      width: 15px;
+      height: 15px;
+    }
+  }
 `

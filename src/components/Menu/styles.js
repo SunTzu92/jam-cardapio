@@ -8,6 +8,7 @@ export const Container = styled.div`
   align-items: center;
   color: #fff;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 `
 
 export const Button = styled.button`
@@ -18,7 +19,12 @@ export const Button = styled.button`
   color: #455a64;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
+  font-size: 1rem;
   cursor: pointer;
+
+  /* @media (max-width: 768px) {
+    font-size: 1.1rem;
+  } */
 
   border-color: ${({ active }) => (active ? '#455a64' : 'transparent')};
 
