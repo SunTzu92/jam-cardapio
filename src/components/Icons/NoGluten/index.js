@@ -1,13 +1,15 @@
 ﻿import React from 'react'
 
-import noGluten from '../../../assets/icons/icon-no-gluten.png'
+import noGluten from '../../../assets/icons/icon_jam_sem_gluten--black.png'
+import noGlutenWhite from '../../../assets/icons/icon_jam_sem_gluten--white.png'
 
 import * as S from './styles'
 
-function IconNoGluten() {
+function IconNoGluten({ white = false }) {
+  const iconSrc = !white ? noGluten : noGlutenWhite
   return (
     <S.Container>
-      <img src={noGluten} alt="icone sem glúten" />
+      <img src={iconSrc} alt="icone sem glúten" />
     </S.Container>
   )
 }

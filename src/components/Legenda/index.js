@@ -1,9 +1,11 @@
 ﻿import React, { useCallback, useState } from 'react'
-import { WiRaindrop } from 'react-icons/wi'
-import { AiFillApple, AiFillStar } from 'react-icons/ai'
 
+import IconFavoritos from '../Icons/Favoritos'
+import IconShoyu from '../Icons/Shoyu'
+import IconVegano from '../Icons/Vegano'
 import IconNoLactose from '../Icons/NoLactose'
 import IconNoGluten from '../Icons/NoGluten'
+import IconMeiaPorcao from '../Icons/MeiaPorcao'
 
 import * as S from './styles'
 
@@ -29,31 +31,27 @@ const Legenda = () => {
   return (
     <S.Container>
       <S.Item
-        mLeft="0.25rem"
         onClick={(event) => clicaLegenda('favoritos', event)}
         checked={active['favoritos']}
       >
-        <AiFillStar size={15} className="icon--ai" />
+        <IconFavoritos />
         <span>Favoritos</span>
       </S.Item>
       <S.Item
-        mLeft="-2px"
         onClick={(event) => clicaLegenda('usarShoyu', event)}
         checked={active['usarShoyu']}
       >
-        <WiRaindrop size={25} />
+        <IconShoyu />
         <span>Usar Shoyu</span>
       </S.Item>
       <S.Item
-        mLeft="0.25rem"
         onClick={(event) => clicaLegenda('vegetariano', event)}
         checked={active['vegetariano']}
       >
-        <AiFillApple size={15} className="icon--ai" />
+        <IconVegano />
         <span>Vegetariano</span>
       </S.Item>
       <S.Item
-        mLeft="0.25rem"
         onClick={(event) => clicaLegenda('semLactose', event)}
         checked={active['semLactose']}
       >
@@ -61,7 +59,6 @@ const Legenda = () => {
         <span>Sem Lactose</span>
       </S.Item>
       <S.Item
-        mLeft="0.25rem"
         onClick={(event) => clicaLegenda('semGluten', event)}
         checked={active['semGluten']}
       >
@@ -69,10 +66,10 @@ const Legenda = () => {
         <span>Sem Glúten</span>
       </S.Item>
       <S.Item
-        mLeft="0.25rem"
         onClick={(event) => clicaLegenda('meiaPorcao', event)}
         checked={active['meiaPorcao']}
       >
+        <IconMeiaPorcao />
         <span>Meia Porção</span>
       </S.Item>
     </S.Container>

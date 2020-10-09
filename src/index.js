@@ -1,6 +1,7 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom'
 
+import 'intersection-observer'
 import 'react-responsive-modal/styles.css'
 
 import App from './App'
