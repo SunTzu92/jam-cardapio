@@ -48,4 +48,16 @@ export const Divider = styled.hr`
   width: 80%;
   background-color: #fff;
   height: 2px;
+
+  @media (max-width: 768px) {
+    width: 70%;
+  }
+
+  @media (max-width: 425px) {
+    width: 50%;
+  }
+
+  @media (max-width: 375px) {
+    width: 40%;
+  }
 `
