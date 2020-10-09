@@ -20,6 +20,9 @@ const SubCategoria = () => {
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: true,
+    autoplaySpeed: 2000,
+    speed: 2000,
+    initialSlide: 0,
     nextArrow: (
       <SlickButtonFix>
         <TiChevronRight color={'#fff'} />

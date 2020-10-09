@@ -4,6 +4,12 @@ import Slider from '../Slider'
 
 import * as S from './styles'
 
+import img1 from '../../assets/img/banner001.png'
+import img2 from '../../assets/img/banner002.png'
+import img3 from '../../assets/img/banner003.png'
+import img4 from '../../assets/img/banner004.png'
+import img5 from '../../assets/img/banner005.png'
+
 const Banner = () => {
   const settings = {
     infinite: true,
@@ -23,9 +29,11 @@ const Banner = () => {
       </S.Fallback>
 
       <Slider settings={settings}>
-        <S.Content bg="https://cutt.ly/ygruIlL" />
-        <S.Content bg="https://cutt.ly/JgruOu0" />
-        <S.Content bg="https://cutt.ly/9gruOFv" />
+        <S.Content bg={img1} />
+        <S.Content bg={img2} />
+        <S.Content bg={img3} />
+        <S.Content bg={img4} />
+        <S.Content bg={img5} />
       </Slider>
     </S.Container>
   )

@@ -5,10 +5,9 @@ import * as S from './styles'
 const Item = ({ title, src }) => {
   return (
     <S.Container>
-      <S.Image src={src} alt="" />
+      <S.Image src={src} alt="" decode />
 
       <S.Description>
-
         <S.Title>{title}</S.Title>
       </S.Description>
     </S.Container>
