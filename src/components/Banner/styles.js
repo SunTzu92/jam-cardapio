@@ -1,4 +1,5 @@
 ﻿import styled from 'styled-components'
+import Img from 'react-cool-img'
 
 export const Container = styled.div`
   display: flex;
@@ -103,4 +104,18 @@ export const Divider = styled.div`
   width: 2px;
   background-color: #fff;
   margin: 0 3rem;
+`
+
+export const FigureDescription = styled.figure`
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+
+export const ImgDescription = styled(Img)`
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
 `

@@ -1,4 +1,4 @@
-﻿import React from 'react'
+﻿import React, { memo } from 'react'
 import { TiChevronLeft, TiChevronRight } from 'react-icons/ti'
 
 import { SlickButtonFix } from '../../../Slider'
@@ -18,19 +18,19 @@ const SubCategoria = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    pauseOnHover: true,
-    autoplaySpeed: 2000,
+    // autoplay: true,
+    // pauseOnHover: true,
+    // autoplaySpeed: 5000,
     speed: 2000,
     initialSlide: 0,
     nextArrow: (
       <SlickButtonFix>
-        <TiChevronRight color={'#fff'} />
+        <TiChevronRight color={'#fff'} size={20} />
       </SlickButtonFix>
     ),
     prevArrow: (
       <SlickButtonFix>
-        <TiChevronLeft color={'#fff'} />
+        <TiChevronLeft color={'#fff'}  size={20} />
       </SlickButtonFix>
     )
   }
@@ -40,7 +40,7 @@ const SubCategoria = () => {
       <S.Title> TARTAN {'&'} CEVICHE </S.Title>
 
       <S.Slider settings={settings}>
-        <Item title="uramaki" src={img1} />
+        <Item title="uramaki uramaki uramaki uramaki" src={img1} />
         <Item title="uramaki" src={img2} />
         <Item title="uramaki" src={img3} />
         <Item title="uramaki" src={img4} />
@@ -53,4 +53,4 @@ const SubCategoria = () => {
   )
 }
 
-export default SubCategoria
+export default memo(SubCategoria)

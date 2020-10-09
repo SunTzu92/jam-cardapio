@@ -10,6 +10,8 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-weight: 300;
   text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.1rem;
 `
 
 export const Image = styled(Img)`
@@ -48,4 +50,11 @@ export const Description = styled.div`
   bottom: 0;
   width: 100%;
   background-color: rgb(0 0 0 / 59%);
+`
+
+export const Icons = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 3rem;
 `
