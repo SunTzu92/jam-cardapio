@@ -39,11 +39,11 @@ const Modal = ({ children, images = [] }, ref) => {
   return (
     <Portal open={visible}>
       <S.Container visible={visible} ref={ref} onClick={handlerCloseModal}>
-        <S.Content onClick={event => event.stopPropagation()}>
+        <S.Content onClick={(event) => event.stopPropagation()}>
           <S.Actions>
-            <button type='button' onClick={handlerCloseModal}>
+            <button type="button" onClick={handlerCloseModal}>
               Fechar
-              <GrClose color='#fff' />
+              <GrClose color="#fff" />
             </button>
           </S.Actions>
 
@@ -58,7 +58,7 @@ const Modal = ({ children, images = [] }, ref) => {
 
             <S.CardDescription>
               <span>
-                <strong>DESCRIÇÃO:</strong>{' '}
+              <strong>DESCRIÇÃO: {' '}</strong>
                 Finas fatias de peixes em forma de flor.
               </span>
             </S.CardDescription>
@@ -67,8 +67,11 @@ const Modal = ({ children, images = [] }, ref) => {
 
             <S.Opcoes>
               <h4>OPÇÕES</h4>
-
-              {[{tipo: 'salmão', preco: 'R$ 49, 99'}, {tipo: 'Atum', preco: 'R$ 49, 99'}, {tipo: 'Peixe Branco', preco: 'R$ 49, 99'}].map((opc, idx) => (
+              {[
+                { tipo: 'salmão', preco: 'R$ 49, 99' },
+                { tipo: 'Atum', preco: 'R$ 49, 99' },
+                { tipo: 'Peixe Branco', preco: 'R$ 49, 99' }
+              ].map((opc, idx) => (
                 <S.OpcoesContent key={idx}>
                   <S.Tipo>{opc.tipo}</S.Tipo>
                   <S.Preco>{opc.preco}</S.Preco>
@@ -79,10 +82,13 @@ const Modal = ({ children, images = [] }, ref) => {
             <S.Divider />
 
             <S.Classificacao>
-              <span>OBSERVAÇÕES: </span>
-              <IconFavoritos white />
-              <IconShoyu white />
-              <IconMeiaPorcao white />
+              <S.ClassificacaoDescription>OBSERVAÇÕES: polvo sujeito a alteração</S.ClassificacaoDescription>
+
+              <S.Icons>
+                <IconFavoritos white />
+                <IconShoyu white />
+                <IconMeiaPorcao white />
+              </S.Icons>
             </S.Classificacao>
           </S.Card>
         </S.Content>

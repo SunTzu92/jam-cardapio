@@ -149,7 +149,7 @@ export const Preco = styled.div`
 
 export const Classificacao = styled.div`
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
   & figure {
     margin-right: 0.5rem;
@@ -158,4 +158,13 @@ export const Classificacao = styled.div`
   & > span {
     margin-right: 1rem;
   }
+`
+
+export const ClassificacaoDescription = styled.div`
+  margin-bottom: 0.5rem;
+`
+
+export const Icons = styled.div`
+  display: flex;
+  width: 100%;
 `
