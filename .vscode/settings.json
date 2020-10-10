@@ -10,6 +10,10 @@
     "editor.formatOnSave": true,
     "files.encoding": "utf8bom"
   },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "files.encoding": "utf8bom"
+  },
 
   "[html]": {
     "files.encoding": "utf8bom"

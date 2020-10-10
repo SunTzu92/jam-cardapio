@@ -6,7 +6,7 @@
     "endOfLine": "lf",
     "resolveGlobalModules": true,
     "tabWidth": 2,
-    "jsxSingleQuote": true,
+    "jsxSingleQuote": false,
     "packageManager": "yarn",
     "quoteProps": "preserve"
 }
