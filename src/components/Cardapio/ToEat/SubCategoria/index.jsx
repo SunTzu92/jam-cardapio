@@ -9,9 +9,6 @@ import * as S from './styles'
 import img1 from '../../../../assets/img/jam001.jpg'
 import img2 from '../../../../assets/img/jam003.jpg'
 import img3 from '../../../../assets/img/jam004.jpg'
-import img4 from '../../../../assets/img/jam006.jpg'
-import img5 from '../../../../assets/img/jam008.jpg'
-import img6 from '../../../../assets/img/jam009.jpg'
 
 const SubCategoria = () => {
   const settings = {
@@ -54,12 +51,9 @@ const SubCategoria = () => {
       <S.Title> TARTAN {'&'} CEVICHE </S.Title>
 
       <S.Slider settings={settings}>
-        <Item title="uramaki uramaki uramaki uramaki" src={img1} />
+        <Item title="uramaki" src={img1} />
         <Item title="uramaki" src={img2} />
         <Item title="uramaki" src={img3} />
-        <Item title="uramaki" src={img4} />
-        <Item title="uramaki" src={img5} />
-        <Item title="uramaki" src={img6} />
       </S.Slider>
 
       <S.Divider />

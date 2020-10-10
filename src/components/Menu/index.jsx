@@ -1,5 +1,7 @@
 ﻿import React, { useCallback, useState } from 'react'
 
+import MenuItem from './Item'
+
 import * as S from './styles'
 
 function Menu() {
@@ -11,33 +13,14 @@ function Menu() {
 
   return (
     <S.Container>
-      <S.Button
-        type="button"
-        onClick={onClickItem.bind(this, 'entradas')}
-        active={active === 'entradas'}>
-        Entradas
-      </S.Button>
+      <MenuItem onClick={onClickItem} name="entradas" active={active} />
       <S.Divider />
-      <S.Button
-        type="button"
-        onClick={onClickItem.bind(this, 'principais')}
-        active={active === 'principais'}>
-        Pratos Principais
-      </S.Button>
+      <MenuItem onClick={onClickItem} name="principais" active={active} />
       <S.Divider />
-      <S.Button
-        type="button"
-        onClick={onClickItem.bind(this, 'sushi')}
-        active={active === 'sushi'}>
-        Sushi {'&'} Roll
-      </S.Button>
+      <MenuItem onClick={onClickItem} name="sushi" active={active} />
       <S.Divider />
-      <S.Button
-        type="button"
-        onClick={onClickItem.bind(this, 'sobremesas')}
-        active={active === 'sobremesas'}>
-        Sobremesas
-      </S.Button>
+      <MenuItem onClick={onClickItem} name="sobremesas" active={active} />
+      <S.Divider />
     </S.Container>
   )
 }
