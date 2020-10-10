@@ -5,6 +5,7 @@ export const Container = styled.div`
   position: relative;
   height: 250px;
   font-family: 'Roboto', serif;
+  cursor: pointer;
 `
 
 export const Title = styled.h1`
