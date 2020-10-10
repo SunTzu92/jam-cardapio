@@ -58,7 +58,17 @@ const Modal = ({ children, images = [] }, ref) => {
 
             <S.CardDescription>
               <span>
-              <strong>DESCRIÇÃO: {' '}</strong>
+                <strong>DESCRIÇÃO: </strong>
+                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
+                Finas fatias de peixes em forma de flor.
                 Finas fatias de peixes em forma de flor.
               </span>
             </S.CardDescription>
@@ -82,7 +92,9 @@ const Modal = ({ children, images = [] }, ref) => {
             <S.Divider />
 
             <S.Classificacao>
-              <S.ClassificacaoDescription>OBSERVAÇÕES: polvo sujeito a alteração</S.ClassificacaoDescription>
+              <S.ClassificacaoDescription>
+                OBSERVAÇÕES: polvo sujeito a alteração
+              </S.ClassificacaoDescription>
 
               <S.Icons>
                 <IconFavoritos white />

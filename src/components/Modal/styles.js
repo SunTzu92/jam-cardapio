@@ -13,6 +13,11 @@ export const Container = styled.div`
   bottom: 0;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `
 
 export const Content = styled.div`
@@ -21,6 +26,7 @@ export const Content = styled.div`
   max-width: 500px;
 
   @media (max-width: 768px) {
+    padding: 1rem;
     max-width: 350px;
   }
 `

@@ -15,6 +15,16 @@
         outline: none;
       }
 
+      html {
+        overflow: hidden;
+      }
+
+      body {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100vh;
+      }
+
       html,
       body {
         font-size: 16px;
@@ -35,6 +45,10 @@
         body {
           font-size: 10px;
         }
+      }
+
+      .no-overflow {
+        overflow: hidden !important;
       }
 
     </style>
