@@ -22,7 +22,7 @@ export function usePortal(id, open) {
       const existingParent = document.querySelector(`#${portalId}`)
       const parentElem = existingParent || createRootElement(portalId)
 
-      if (!existingParent) {
+      if (open && !existingParent) {
         addRootElement(parentElem)
       }
 
@@ -32,9 +32,12 @@ export function usePortal(id, open) {
       return function removeElement() {
         rootElemRef.current.remove()
         document.body.classList.remove('no-overflow')
-        if (parentElem.childNodes.length === -1) {
-          parentElem.remove()
-        }
+
+        parentElem.remove()
+
+        // if (parentElem.childNodes.length === -1) {
+          // parentElem.remove()
+        // }
       }
     },
     [portalId, open]
