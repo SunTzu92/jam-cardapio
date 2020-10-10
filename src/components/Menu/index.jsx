@@ -13,14 +13,13 @@ function Menu() {
 
   return (
     <S.Container>
-      <MenuItem onClick={onClickItem} name="entradas" active={active} />
+      <MenuItem onClick={onClickItem} title="Entradas" name="entradas" active={active} />
       <S.Divider />
-      <MenuItem onClick={onClickItem} name="principais" active={active} />
+      <MenuItem onClick={onClickItem} title="Pratos Principais" name="principais" active={active} />
       <S.Divider />
-      <MenuItem onClick={onClickItem} name="sushi" active={active} />
+      <MenuItem onClick={onClickItem} title="Sushi & Roll" name="sushi" active={active} />
       <S.Divider />
-      <MenuItem onClick={onClickItem} name="sobremesas" active={active} />
-      <S.Divider />
+      <MenuItem onClick={onClickItem} title="Sobremesas" name="sobremesas" active={active} />
     </S.Container>
   )
 }
