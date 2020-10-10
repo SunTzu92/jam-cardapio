@@ -1,5 +1,5 @@
 ﻿const INITIAL_STATE = {
-  data: []
+  selected: ''
 }
 
 export const TYPES = {
@@ -10,10 +10,11 @@ export default (state = INITIAL_STATE, action) => {
   const { type, payload } = action
   switch (type) {
     case TYPES.COMIDAS_LOADING_SUCCESS: {
-      const { comidas } = payload
+      const { selected, data } = payload
       return {
         ...state,
-        data: [...comidas]
+        selected,
+        ...data
       }
     }
     default:

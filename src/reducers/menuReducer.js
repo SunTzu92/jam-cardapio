@@ -1,20 +1,19 @@
 ﻿const INITIAL_STATE = {
-  selected: ''
+  selected: 'comidas'
 }
 
 export const TYPES = {
-  BEBIDAS_LOADING_SUCCESS: 'BEBIDAS_LOADING_SUCCESS'
+  CHANGE_MENU: 'CHANGE_MENU'
 }
 
 export default (state = INITIAL_STATE, action) => {
   const { type, payload } = action
   switch (type) {
-    case TYPES.BEBIDAS_LOADING_SUCCESS: {
-      const { selected, data } = payload
+    case TYPES.CHANGE_MENU: {
+      const { selected } = payload
       return {
         ...state,
-        selected,
-        ...data
+        selected
       }
     }
     default:
