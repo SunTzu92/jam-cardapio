@@ -1,5 +1,6 @@
 {
   "files.encoding": "utf8bom",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "editor.wordWrapColumn": 120,
   "editor.renderWhitespace": "all",

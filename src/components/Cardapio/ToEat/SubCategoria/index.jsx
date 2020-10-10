@@ -21,7 +21,7 @@ const SubCategoria = () => {
     // autoplay: true,
     // pauseOnHover: true,
     // autoplaySpeed: 5000,
-    speed: 2000,
+    // speed: 2000,
     initialSlide: 0,
     responsive: [
       {
