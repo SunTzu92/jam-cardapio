@@ -3,17 +3,17 @@
 }
 
 export const TYPES = {
-  BEBIDAS_LOADING_SUCCESS: 'BEBIDAS_LOADING_SUCCESS'
+  COMIDAS_LOADING_SUCCESS: 'COMIDAS_LOADING_SUCCESS'
 }
 
 export default (state = INITIAL_STATE, action) => {
   const { type, payload } = action
   switch (type) {
-    case TYPES.BEBIDAS_LOADING_SUCCESS: {
-      const { bebidas } = payload
+    case TYPES.COMIDAS_LOADING_SUCCESS: {
+      const { comidas } = payload
       return {
         ...state,
-        data: [...bebidas]
+        data: [...comidas]
       }
     }
     default:
