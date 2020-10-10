@@ -1,11 +1,16 @@
 {
   "files.encoding": "utf8bom",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   "editor.wordWrapColumn": 120,
   "editor.renderWhitespace": "all",
   "editor.formatOnSave": false,
 
   "[javascript]": {
+    "editor.formatOnSave": true,
+    "files.encoding": "utf8bom"
+  },
+  "[javascriptreact]": {
     "editor.formatOnSave": true,
     "files.encoding": "utf8bom"
   },

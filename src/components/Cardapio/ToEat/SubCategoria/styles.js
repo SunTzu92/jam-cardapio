@@ -25,12 +25,20 @@ export const Container = styled.div`
     left: 4rem;
     top: inherit;
     bottom: -52px;
+
+    @media (max-width: 768px) {
+      bottom: -41px;
+    }
   }
 
   .slick-next {
     right: 4rem;
     top: inherit;
     bottom: -52px;
+
+    @media (max-width: 768px) {
+      bottom: -41px;
+    }
   }
 `
 
