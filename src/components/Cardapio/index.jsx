@@ -6,7 +6,7 @@ import Categoria from './Categoria'
 import Item from './Item'
 import * as S from './styles'
 import { settings } from './util'
-import { filterItens } from '../../helpers'
+// import { filterItens } from '../../helpers'
 
 const selectorCardapio = createSelector(
   (state) => state,
@@ -41,15 +41,15 @@ const renderItens = ({  itens = [], nome  }) => {
 }
 
 function Cardapio() {
-  const menuLegendas = useSelector((state) => state.legenda)
+  // const menuLegendas = useSelector((state) => state.legenda)
   const { itens: card, selected } = useSelector(selectorCardapio)
 
   const { subcategorias = [], itens = [], nome = '' } = card[selected] || {}
-  const newItens = filterItens(itens, menuLegendas)
+  // const newItens = filterItens(itens, menuLegendas)
 
   const render = !itens.length
     ? renderCategoria.bind(this, subcategorias)
-    : renderItens.bind(this, { newItens, nome })
+    : renderItens.bind(this, { itens, nome })
 
   return (
     <S.Container>

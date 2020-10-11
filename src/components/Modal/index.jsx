@@ -21,7 +21,7 @@ const settings = {
   initialSlide: 0,
 }
 
-const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoes, preco }, ref) => {
+const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoes, preco, baseUrl }, ref) => {
   const [visible, setVisible] = useState(false)
 
   const exibirPreco = !opcoes.length;
@@ -54,7 +54,7 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
 
             <S.Slider settings={settings}>
               {imagens.map((img, index) => (
-                <S.Image key={index} src={img} />
+                <S.Image key={index} src={`${baseUrl}${img}`} />
               ))}
             </S.Slider>
 

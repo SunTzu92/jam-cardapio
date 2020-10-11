@@ -1,11 +1,11 @@
 ﻿import React from 'react'
-import { useSelector } from 'react-redux'
+// import { useSelector } from 'react-redux'
 
 import SubCategoria from '../SubCategoria'
 
 import Item from '../Item'
 import { settings } from '../util'
-import { filterItens } from '../../../helpers'
+// import { filterItens } from '../../../helpers'
 
 import * as S from './styles'
 
@@ -34,12 +34,12 @@ const renderItens = (itens = []) => {
 }
 
 const Categoria = ({ nome, itens, seccoes }) => {
-  const menuLegendas = useSelector((state) => state.legenda)
-  const newItens = filterItens(itens, menuLegendas)
+  // const menuLegendas = useSelector((state) => state.legenda)
+  // const newItens = filterItens(itens, menuLegendas)
 
   const render = !itens.length
     ? renderCategoria.bind(this, seccoes)
-    : renderItens.bind(this, newItens)
+    : renderItens.bind(this, itens)
   return (
     <S.Container>
       <S.Title>{nome}</S.Title>

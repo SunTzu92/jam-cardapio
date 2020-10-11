@@ -1,4 +1,5 @@
 ﻿import React, { useCallback, useRef } from 'react'
+import { useSelector } from 'react-redux'
 
 import IconFavoritos from '../../Icons/Favoritos'
 import IconShoyu from '../../Icons/Shoyu'
@@ -11,15 +12,25 @@ import Modal from '../../Modal'
 
 import * as S from './styles'
 
-const Item = ({ nome, legenda, ...rest }) => {
-  const modalRef = useRef(null)
+const getTypeUrl = selected => {
+  if (selected === 'comidas') return 'eat'
+  else return 'drink'
+}
 
+const Item = ({ nome, legenda, imagens, ...rest }) => {
+  const menuSelected = useSelector(state => state.menu.selected)
+  const modalRef = useRef(null)
   const handleOpenModal = useCallback(() => modalRef.current?.openModal(), [modalRef])
+
+  const typeUrl = getTypeUrl(menuSelected)
+  const img = imagens[0] ?? '';
+
+  const baseUrl = `http://www.jam.com.br/Images/cardapio/${typeUrl}/`;
 
   return (
     <>
       <S.Container onClick={handleOpenModal}>
-        <S.Image src={''} decode={true} cache={true} debounce={1000} />
+        <S.Image src={`${baseUrl}${img}`} loading="lazy" />
 
         <S.Description>
           <S.Title>{nome}</S.Title>
@@ -33,7 +44,7 @@ const Item = ({ nome, legenda, ...rest }) => {
           </S.Icons>
         </S.Description>
       </S.Container>
-      <Modal ref={modalRef} {...rest} nome={nome} legenda={legenda} />
+      <Modal ref={modalRef} {...rest} nome={nome} legenda={legenda} imagens={imagens} baseUrl={baseUrl} />
     </>
   )
 }

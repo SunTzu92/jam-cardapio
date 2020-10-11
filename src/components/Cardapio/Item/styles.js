@@ -1,5 +1,4 @@
 ﻿import styled from 'styled-components'
-import Img from 'react-cool-img'
 
 export const Container = styled.div`
   position: relative;
@@ -15,7 +14,7 @@ export const Title = styled.h1`
   margin-bottom: 0.1rem;
 `
 
-export const Image = styled(Img)`
+export const Image = styled.img`
   height: 250px;
   width: 100%;
   object-fit: cover;
