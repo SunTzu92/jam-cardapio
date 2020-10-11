@@ -174,3 +174,5 @@ export const Icons = styled.div`
   display: flex;
   width: 100%;
 `
+
+export const CardPreco = styled.div``
