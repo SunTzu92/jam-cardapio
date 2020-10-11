@@ -3,10 +3,11 @@ import { TiChevronLeft, TiChevronRight } from 'react-icons/ti'
 import { SlickButtonFix } from '../Slider'
 
 export const settings = {
-  infinite: true,
+  infinite: false,
   slidesToShow: 3,
   slidesToScroll: 1,
   initialSlide: 0,
+  lazyLoad: true,
   responsive: [
     {
       breakpoint: 769,

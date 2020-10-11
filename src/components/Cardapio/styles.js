@@ -33,6 +33,11 @@ export const SliderContainer = styled.span`
     }
   }
 
+  .slick-prev.slick-disabled,
+  .slick-next.slick-disabled {
+    display: none !important;
+  }
+
   .slick-prev {
     left: 4rem;
     top: inherit;
