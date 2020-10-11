@@ -3,7 +3,7 @@
 }
 
 export const TYPES = {
-  CHANGE_MENU: 'CHANGE_MENU'
+  CHANGE_MENU: 'MENU:CHANGE_MENU'
 }
 
 export default (state = INITIAL_STATE, action) => {
@@ -13,7 +13,10 @@ export default (state = INITIAL_STATE, action) => {
       const { selected } = payload
       return {
         ...state,
-        selected
+        menu: {
+          ...state.menu,
+          selected
+        }
       }
     }
     default:

@@ -1,9 +1,11 @@
 ﻿const INITIAL_STATE = {
-  selected: ''
+  selected: '',
+  itens: {}
 }
 
 export const TYPES = {
-  COMIDAS_LOADING_SUCCESS: 'COMIDAS_LOADING_SUCCESS'
+  COMIDAS_LOADING_SUCCESS: 'COMIDAS:LOADING_SUCCESS',
+  CHAMGE_MENU: 'COMIDAS:CHANGE_MENU'
 }
 
 export default (state = INITIAL_STATE, action) => {
@@ -14,7 +16,17 @@ export default (state = INITIAL_STATE, action) => {
       return {
         ...state,
         selected,
-        ...data
+        itens: {
+          ...state.itens,
+          ...data
+        }
+      }
+    }
+    case TYPES.CHAMGE_MENU: {
+      const { selected } = payload
+      return {
+        ...state,
+        selected
       }
     }
     default:

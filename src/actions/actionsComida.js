@@ -16,23 +16,23 @@ export const loadSuccess = (dataSource) => {
 
   let count = 0;
   for (const item of dataSource) {
-    const name = slugify(item.nome, configSlug)
+    const slug = slugify(item.nome, configSlug)
 
     data = {
       ...data,
-      [name]: {
-        name,
-        ...item,
+      [slug]: {
+        slug,
+        ...item
       }
     }
 
-    if (!count) selected = name;
+    if (!count) selected = slug
 
     ++count;
   }
 
-  return ({
+  return {
     type: TYPES.COMIDAS_LOADING_SUCCESS,
     payload: { selected, data }
-  })
+  }
 }

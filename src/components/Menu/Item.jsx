@@ -2,13 +2,13 @@
 
 import * as S from './styles'
 
-const MenuItem = ({ onClick, active, name, title }) => {
+const MenuItem = ({ onClick, active, nome, slug }) => {
   return (
     <S.Button
       type="button"
-      onClick={event => onClick(name)}
-      active={active === name}>
-      {title}
+      onClick={event => onClick(slug)}
+      active={active === slug}>
+      {nome}
     </S.Button>
   )
 }
