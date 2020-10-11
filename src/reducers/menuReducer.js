@@ -13,10 +13,7 @@ export default (state = INITIAL_STATE, action) => {
       const { selected } = payload
       return {
         ...state,
-        menu: {
-          ...state.menu,
-          selected
-        }
+        selected
       }
     }
     default:
