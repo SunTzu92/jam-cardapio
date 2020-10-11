@@ -1,18 +1,29 @@
 ﻿import React from 'react'
+import { useSelector } from 'react-redux'
 
 import Item from '../Item'
 import { settings } from '../util'
 import * as S from './styles'
 
+import { filterItens } from '../../../helpers'
+
 const SubCategoria = ({ nome, itens }) => {
-  const slidesToShow = itens?.length > 2 ? 3 : 2
+  const menuLegendas = useSelector((state) => state.legenda)
+  const newItens = filterItens(itens, menuLegendas)
+
+  let slidesToShow = 3
+  if (newItens.length < 3) {
+    if (newItens.length === 2) slidesToShow = 2
+    else slidesToShow = 1
+  }
+
   return (
     <S.Container>
       <S.Title> {nome} </S.Title>
 
       <S.SliderContainer>
         <S.Slider settings={{ ...settings, slidesToShow }}>
-          {itens.map((item, index) => (
+          {newItens.map((item, index) => (
             <Item key={index} {...item} />
           ))}
         </S.Slider>
