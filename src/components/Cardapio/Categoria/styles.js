@@ -1,12 +1,19 @@
 ﻿import styled from 'styled-components'
-import SliderBase from '../../../Slider'
+import SliderBase from '../../Slider'
 
 export const Container = styled.div`
   width: 100%;
   font-family: 'Cormorant', serif;
-  margin-bottom: 5rem;
+`
 
-  & .slick-slide {
+export const Title = styled.h1`
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+`
+
+export const SliderContainer = styled.span`
+  .slick-slide {
     & > div {
       padding: 0 1rem;
     }
@@ -44,12 +51,6 @@ export const Container = styled.div`
 
 export const Slider = styled(SliderBase)`
   margin-bottom: 2rem;
-`
-
-export const Title = styled.h1`
-  font-size: 2rem;
-  font-weight: 600;
-  text-align: center;
 `
 
 export const Divider = styled.hr`
