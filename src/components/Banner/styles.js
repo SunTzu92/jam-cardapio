@@ -18,7 +18,7 @@ export const Content = styled.div`
   position: relative;
   display: flex !important;
   padding: 0;
-  height: 60vh;
+  height: 83vh;
   border: none;
   background: url(${({ bg }) => bg});
   background-position: center;
