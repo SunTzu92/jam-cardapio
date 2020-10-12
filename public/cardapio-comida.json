@@ -12,12 +12,12 @@
                 {
                   "nome": "TIRADITO UME COM CAJU",
                   "preco": "R$ 29",
-                  "descricao": "Finas fatias de atum e cajú ao molho cítrico com mel,  manjericão e ameixa japonesa, levemente apimentado  (5 cortes)",
+                  "descricao": "Finas fatias de atum e cajú ao molho cítrico com mel, manjericão e ameixa japonesa, levemente apimentado  (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
                     "meiaPorcao": false,
-                    "semLactose": false,
+                    "semLactose": true,
                     "semGluten": false,
                     "vegano": false,
                     "usarShoyu": false
@@ -28,7 +28,7 @@
                 {
                   "nome": "SICILIAN SHAKE HARA",
                   "preco": "R$ 29",
-                  "descricao": "Sashimi de barriga de salmão selada com sal do Himalaia,   \nlimão siciliano e azeite trufado (5 un)",
+                  "descricao": "Sashimi de barriga de salmão selada com sal do Himalaia, limão siciliano e azeite trufado (5 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -44,7 +44,7 @@
                 {
                   "nome": "WASI MAGURO | SALMON",
                   "preco": "R$ 37",
-                  "descricao": "Sashimi de atum ou salmão selado com gergelim, masago, cebola roxa e molho de manjericão com azeite de trufa (5 cortes)",
+                  "descricao": "Sashimi de atum OU salmão selado com gergelim, masago, cebola roxa e molho de manjericão com azeite de trufa (5 cortes)",
                   "observacoes": "Atum R$ 37 / Salmão R$ 37",
                   "legenda": {
                     "favorito": true,
@@ -67,7 +67,7 @@
                 {
                   "nome": "WASI  TAKO",
                   "preco": "R$ 36",
-                  "descricao": "Sashimi de polvo ao molho wasi com sunomono ao centro (5 cortes)",
+                  "descricao": "Sashimi de polvo ao molho wasi com sunomono (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -147,7 +147,7 @@
                 {
                   "nome": "USSUZUKURI ESPECIAL",
                   "preco": "R$ 39",
-                  "descricao": "Finas fatias de salmão, atum ou peixe branco em forma de flor com molho especial a base de wasabi, pimenta-dedo-de-moça, gergelim e salsa picada (15 cortes)",
+                  "descricao": "Finas fatias de salmão, atum OU peixe branco em forma de flor com molho especial a base de wasabi, pimenta-dedo-de-moça, gergelim e salsa picada (15 cortes)",
                   "observacoes": "Salmão R$ 39 / Atum R$ 42  / Peixe Branco R$ 41 ",
                   "legenda": {
                     "favorito": true,
@@ -157,13 +157,22 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["USSUZUKURI_ESPECIAL.jpg"]
+                  "opcoes": [
+                    { "nome": "Salmão", "preco": "R$ 39" },
+                    { "nome": "Atum", "preco": "R$ 42" },
+                    { "nome": "Peixe Branco", "preco": "R$ 41" }
+                  ],
+                  "imagens": [
+                    "USSUZUKURI_ESPECIAL.jpg",
+                    "USSUZUKURI_ESPECIAL_Salmao.jpg",
+                    "USSUZUKURI_ESPECIAL_Atum.jpg",
+                    "USSUZUKURI_ESPECIAL_Peixe_Branco.jpg"
+                  ]
                 },
                 {
                   "nome": "USSUZUKURI SPICY",
                   "preco": "R$ 42",
-                  "descricao": "Finas fatias de atum, salmão ou peixe branco em forma de flor ao molho spicy, levemente apimentado com pimenta-dedo-de-moça e crispy de alho poró. (15 cortes)",
+                  "descricao": "Finas fatias de atum, salmão OU peixe branco em forma de flor ao molho spicy, levemente apimentado com pimenta-dedo-de-moça e crispy de alho poró. (15 cortes)",
                   "observacoes": "Atum R$ 42 / Salmão R$ 39 / Peixe Branco R$ 41 ",
                   "legenda": {
                     "favorito": true,
@@ -173,13 +182,22 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["USSUZUKURI_SPICY.jpg"]
+                  "opcoes": [
+                    { "nome": "Atum", "preco": "R$ 42" },
+                    { "nome": "Salmão", "preco": "R$ 39" },
+                    { "nome": "Peixe Branco", "preco": "R$ 41" }
+                  ],
+                  "imagens": [
+                    "USSUZUKURI_SPICY.jpg",
+                    "USSUZUKURI_SPICY_Atum.jpg",
+                    "USSUZUKURI_SPICY_Salmao.jpg",
+                    "USSUZUKURI_SPICY_Peixe_Branco.jpg"
+                  ]
                 },
                 {
                   "nome": "USSUZUKURI TRUFADO",
                   "preco": "R$ 42",
-                  "descricao": "Finas fatias de atum, salmão ou peixe branco em forma de flor com molho trufado, ovas e leve toque de pimenta-dedo-de-moça (15 cortes)",
+                  "descricao": "Finas fatias de salmão, atum OU peixe branco em forma de flor com molho trufado, ovas e leve toque de pimenta-dedo-de-moça (15 cortes)",
                   "observacoes": "Salmão R$ 42 / Atum R$ 44 / Peixe Branco R$ 43 ",
                   "legenda": {
                     "favorito": true,
@@ -189,13 +207,22 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["USSUZUKURI_TRUFADO.jpg"]
+                  "opcoes": [
+                    { "nome": "Salmão", "preco": "R$ 42" },
+                    { "nome": "Atum", "preco": "R$ 44" },
+                    { "nome": "Peixe Branco", "preco": "R$ 43" }
+                  ],
+                  "imagens": [
+                    "USSUZUKURI_TRUFADO.jpg",
+                    "USSUZUKURI_TRUFADO_Salmao.jpg",
+                    "USSUZUKURI_TRUFADO_Atum.jpg",
+                    "USSUZUKURI_TRUFADO_Peixe_Branco.jpg"
+                  ]
                 },
                 {
                   "nome": "HOT STONE SASHIMI",
                   "preco": "R$ 31",
-                  "descricao": "Sashimi de peixe, mignon ou fruto do mar selado sobre pedra quente, com molho de ostras levemente apimentado sobre cama de alho poró (5 un) ",
+                  "descricao": "Sashimi de peixe branco, salmão, mignon OU fruto do mar selado sobre pedra quente, com molho de ostras levemente apimentado sobre cama de alho poró (5 un) ",
                   "observacoes": "Peixe Branco R$ 31 / Salmão R$ 29 / Filé Mignon R$ 32 / Camarão R$ 36 ",
                   "legenda": {
                     "favorito": true,
@@ -205,8 +232,19 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["HOT_STONE_SASHIMI.jpg"]
+                  "opcoes": [
+                    { "nome": "Peixe Branco", "preco": "R$ 31" },
+                    { "nome": "Salmão", "preco": "R$ 29" },
+                    { "nome": "Mignon", "preco": "R$ 32" },
+                    { "nome": "Camarão", "preco": "R$ 36" }
+                  ],
+                  "imagens": [
+                    "HOT_STONE_SASHIMI.jpg",
+                    "HOT_STONE_SASHIMI_Peixe_Branco.jpg",
+                    "HOT_STONE_SASHIMI_Salmao.jpg",
+                    "HOT_STONE_SASHIMI_Mignon.jpg",
+                    "HOT_STONE_SASHIMI_Camarao.jpg"
+                  ]
                 }
               ]
             },
@@ -216,7 +254,7 @@
                 {
                   "nome": "URA SALMON EBITEN SPECIAL",
                   "preco": "R$ 44",
-                  "descricao": "Uramaki de salmão crocante envolto com salmão (8 un) camarão crocante envolto com salmão ",
+                  "descricao": "Uramaki de salmão crocante envolto com salmão (8 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -268,7 +306,7 @@
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
-                    "meiaPorcao": false,
+                    "meiaPorcao": true,
                     "semLactose": false,
                     "semGluten": false,
                     "vegano": false,
@@ -296,7 +334,7 @@
                 {
                   "nome": "SHISSÔTUNA / SALMON",
                   "preco": "R$ 26",
-                  "descricao": "Tempurá de shissô, coberto com tartar de atum ou salmão, ovas, gergelim e cebolinha, levemente apimentado (2 un)",
+                  "descricao": "Tempurá de shissô, coberto com tartar de atum OU salmão, ovas, gergelim e cebolinha, levemente apimentado (2 un)",
                   "observacoes": "Atum R$ 26 / Salmão R$ 24",
                   "legenda": {
                     "favorito": true,
@@ -306,8 +344,15 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["SHISSOTUNA__SALMON.jpg"]
+                  "opcoes": [
+                    { "nome": "Atum", "preco": "R$ 26" },
+                    { "nome": "Salmão", "preco": "R$ 24" }
+                  ],
+                  "imagens": [
+                    "SHISSOTUNA__SALMON.jpg",
+                    "SHISSOTUNA__SALMON_Atum.jpg",
+                    "SHISSOTUNA__SALMON_Salmao.jpg"
+                  ]
                 },
                 {
                   "nome": "SPICY TOFU ZUCCHINI ",
@@ -365,7 +410,7 @@
                   "legenda": {
                     "favorito": true,
                     "meiaPorcao": false,
-                    "semLactose": false,
+                    "semLactose": true,
                     "semGluten": false,
                     "vegano": false,
                     "usarShoyu": false
@@ -424,7 +469,7 @@
                 {
                   "nome": "CRUNCH BASKET",
                   "preco": "R$ 33",
-                  "descricao": "Trouxinha crocante recheada com atum, salmão ou camarão com toque picante do chef (4 un)",
+                  "descricao": "Trouxinha crocante recheada com atum, salmão OU camarão com toque picante do chef (4 un)",
                   "observacoes": "Atum R$ 33 / Salmão R$ 31 / Camarão R$ 35",
                   "legenda": {
                     "favorito": false,
@@ -434,13 +479,22 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["CRUNCH_BASKET.jpg"]
+                  "opcoes": [
+                    { "nome": "Atum", "preco": "R$ 33" },
+                    { "nome": "Salmão", "preco": "R$ 31" },
+                    { "nome": "Camarão", "preco": "R$ 35" }
+                  ],
+                  "imagens": [
+                    "CRUNCH_BASKET.jpg",
+                    "CRUNCH_BASKET_Atum.jpg",
+                    "CRUNCH_BASKET_Salmao.jpg",
+                    "CRUNCH_BASKET_Camarao.jpg"
+                  ]
                 },
                 {
                   "nome": "ESPECIAL UNI",
                   "preco": "R$ 41",
-                  "descricao": "Ovas de ouriço servidas em colher de porcelana  com nori, raspas de limão siciliano, pimenta-dedo-de-moça, pitada de molho a base de shoyu  e limão (2 un). Sujeito a disponibilidade",
+                  "descricao": "Ovas de ouriço servidas em colher de porcelana com nori (alga), raspas de limão siciliano, pimenta-dedo-de-moça e complemento de molho a base de shoyu e limão (2 un) - Sujeito a disponibilidade",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
@@ -456,7 +510,7 @@
                 {
                   "nome": "CRISPY NASU ",
                   "preco": "R$ 36",
-                  "descricao": "Cubos de beringela crocante servidos na própria casca com molho missô ",
+                  "descricao": "Surpreendentes cubos de beringela crocante servidos na própria casca com molho missô ",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
@@ -488,7 +542,7 @@
                 {
                   "nome": "SUSHI TRIO ESPECIAL",
                   "preco": "R$ 49",
-                  "descricao": "Dupla de niguiri de salmão selado com sal do Himalaia, dupla de hotategai e dupla de camarão na panko enrolado com salmão, pitada de molho de pimenta, tarê, gergelim crocante, fatias de limão e cebolinha (6 un).",
+                  "descricao": "Dupla de niguiri de salmão selado com sal do Himalaia, dupla de hotategai (vieiras canadenses seladas com trufa e limão siciliano) e dupla de camarão na panko enrolado com salmão, pitada de molho de pimenta, tarê, gergelim crocante, fatias de limão e cebolinha (6 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -504,12 +558,12 @@
                 {
                   "nome": "TRIO VEGAN",
                   "preco": "R$ 48",
-                  "descricao": "Dupla de beringela e tofu com alho maçaricados;  dupla de abobrinha com molho spicy; e, dupla de shitake levemente apimentado com la-yu (6 un).",
+                  "descricao": "Dupla de beringela e tofu com alho maçaricado, dupla de abobrinha com molho spicy e dupla de shitake levemente apimentado com la-yu (6 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
                     "meiaPorcao": false,
-                    "semLactose": true,
+                    "semLactose": false,
                     "semGluten": false,
                     "vegano": true,
                     "usarShoyu": true
@@ -573,8 +627,11 @@
                     "vegano": false,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["GUIOZA.jpg"]
+                  "opcoes": [
+                    { "nome": "Salmão", "preco": "R$ 16" },
+                    { "nome": "Pernil", "preco": "R$ 16" }
+                  ],
+                  "imagens": ["GUIOZA.jpg", "GUIOZA_Salmao.jpg", "GUIOZA_Pernil.jpg"]
                 },
                 {
                   "nome": "EDAMAME",
@@ -611,7 +668,7 @@
                 {
                   "nome": "IKA TO SHIMEJI",
                   "preco": "R$ 29",
-                  "descricao": "Lulas grelhadas em pedra vulcânica, recheadas  com shimeji. Acompanha beringela grelhada (1 un)",
+                  "descricao": "Lulas grelhadas em pedra vulcânica, recheadas  com shimeji. Acompanha beringela grelhada (5 - 7 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -627,7 +684,7 @@
                 {
                   "nome": "TEPPAN SHIMEJI | SHITAKE",
                   "preco": "R$ 26",
-                  "descricao": "Cogumelos pequenos ou grandes grelhados na chapa com shoyu, saquê e manteiga (150g)",
+                  "descricao": "Shimeji E/OU shitake grelhados com shoyu, saquê e manteiga (150g)",
                   "observacoes": "Shimeji R$ 26 / Shitake R$ 26 / Shimeji + Shitake R$ 26 ",
                   "legenda": {
                     "favorito": false,
@@ -637,8 +694,17 @@
                     "vegano": true,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["TEPPAN_SHIMEJI__SHITAKE.jpg"]
+                  "opcoes": [
+                    { "nome": "Shimeji", "preco": "R$ 26" },
+                    { "nome": "Shitake", "preco": "R$ 26" },
+                    { "nome": "Shimeji + Shitake", "preco": "R$ 26" }
+                  ],
+                  "imagens": [
+                    "TEPPAN_SHIMEJI__SHITAKE.jpg",
+                    "TEPPAN_SHIMEJI__SHITAKE_Shimeji.jpg",
+                    "TEPPAN_SHIMEJI__SHITAKE_Shitake.jpg",
+                    "TEPPAN_SHIMEJI__SHITAKE_Shimeji_+_Shitake.jpg"
+                  ]
                 }
               ]
             },
@@ -835,7 +901,7 @@
                     "favorito": false,
                     "meiaPorcao": true,
                     "semLactose": true,
-                    "semGluten": true,
+                    "semGluten": false,
                     "vegano": false,
                     "usarShoyu": true
                   },
@@ -893,7 +959,7 @@
                 {
                   "nome": "HOT FILADÉLFIA",
                   "preco": "R$ 38",
-                  "descricao": "Sushi tradicional enrolado com arroz por fora, gergelim, salmão e cream cheese frito (8 un)",
+                  "descricao": "Sushi tradicional enrolado com arroz por fora, gergelim, salmão e cream cheese na massa tempurá crocante (8 un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -931,7 +997,7 @@
                     "favorito": false,
                     "meiaPorcao": true,
                     "semLactose": true,
-                    "semGluten": true,
+                    "semGluten": false,
                     "vegano": false,
                     "usarShoyu": true
                   },
@@ -945,7 +1011,7 @@
               "itens": [
                 {
                   "nome": "LEGUMES",
-                  "preco": "R$ 14",
+                  "preco": "R$ 16",
                   "descricao": "Sua escolha de legume no espeto grelhado sobre pedra vulcânica. Alho-poró, batata, abobrinha, beringela, couve-flor,  alho, cebola, batata doce ou brócolis (5 cortes)",
                   "observacoes": "Alho Poró R$ 14  /  Batata R$ 14  /  Abobrinha R$ 14  /  Beringela R$ 14  /  Couve Flor R$ 14  / Alho R$ 14  /  Cebola R$ 14  /  Batata Doce R$ 14  /  Brócolis R$ 14",
                   "legenda": {
@@ -956,12 +1022,33 @@
                     "vegano": true,
                     "usarShoyu": false
                   },
-                  "opcoes": [],
-                  "imagens": ["LEGUMES.jpg"]
+                  "opcoes": [
+                    { "nome": "Alho Poró", "preco": "R$ 14" },
+                    { "nome": "Batata", "preco": "R$ 14" },
+                    { "nome": "Abobrinha", "preco": "R$ 14" },
+                    { "nome": "Beringela", "preco": "R$ 14" },
+                    { "nome": "Couve Flor", "preco": "R$ 14" },
+                    { "nome": "Alho", "preco": "R$ 14" },
+                    { "nome": "Cebola", "preco": "R$ 14" },
+                    { "nome": "Batata Doce", "preco": "R$ 14" },
+                    { "nome": "Brócolis", "preco": "R$ 14" }
+                  ],
+                  "imagens": [
+                    "LEGUMES.jpg",
+                    "LEGUMES_Alho_Poro.jpg",
+                    "LEGUMES_Batata.jpg",
+                    "LEGUMES_Abobrinha.jpg",
+                    "LEGUMES_Beringela.jpg",
+                    "LEGUMES_Couve_Flor.jpg",
+                    "LEGUMES_Alho.jpg",
+                    "LEGUMES_Cebola.jpg",
+                    "LEGUMES_Batata_Doce.jpg",
+                    "LEGUMES_Brocolis.jpg"
+                  ]
                 },
                 {
                   "nome": "FRANGO",
-                  "preco": "R$ 20",
+                  "preco": "R$ 22",
                   "descricao": "Espeto de frango grelhado sobre pedra vulcânica (5 cortes)",
                   "observacoes": "",
                   "legenda": {
@@ -978,7 +1065,7 @@
                 {
                   "nome": "MIGNON",
                   "preco": "R$ 26",
-                  "descricao": "Espeto de filé mignon grelhado sobre pedra vulcânica (5 cortes)",
+                  "descricao": "Espeto de mignon grelhado sobre pedra vulcânica (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1031,7 +1118,7 @@
                 {
                   "nome": "PEIXE BRANCO",
                   "preco": "R$ 34",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de peixe branco (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de peixe branco (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1047,7 +1134,7 @@
                 {
                   "nome": "SALMÃO",
                   "preco": "R$ 34",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de salmão (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de salmão (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1063,7 +1150,7 @@
                 {
                   "nome": "ATUM",
                   "preco": "R$ 37",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de atum (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de atum (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1079,7 +1166,7 @@
                 {
                   "nome": "HADDOCK",
                   "preco": "R$ 35",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de anchova negra defumada (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de anchova negra defumada (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1095,7 +1182,7 @@
                 {
                   "nome": "VIEIRA CANADENSE",
                   "preco": "R$ 42",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de vieira canadense (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de vieira canadense (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
@@ -1111,7 +1198,7 @@
                 {
                   "nome": "POLVO",
                   "preco": "R$ 37",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de polvo (5 cortes)",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de polvo (5 cortes)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1127,7 +1214,7 @@
                 {
                   "nome": "TORO",
                   "preco": "R$ 62",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de barriga de atum com alta concentraçao de gordura (5 cortes). Sujeito a disponibilidade",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de barriga de atum com alta concentraçao de gordura (5 cortes). Sujeito a disponibilidade",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1143,7 +1230,7 @@
                 {
                   "nome": "BLUEFIN TORO",
                   "preco": "R$ Mkt Price",
-                  "descricao": "Sua preferência entre corte tradicional ou fino de barriga de atum bluefin com alta concentração de gordura (5 cortes). Sujeito a disponibilidade e preço do dia",
+                  "descricao": "Sua preferência entre corte tradicional OU fino de barriga de atum bluefin com alta concentração de gordura (5 cortes). Sujeito a disponibilidade e preço do dia",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1170,7 +1257,7 @@
                 {
                   "nome": "SALMÃO",
                   "preco": "R$ 18",
-                  "descricao": "Dupla de arroz coberto com corte de salmão (2 Un)",
+                  "descricao": "Dupla de arroz coberto com salmão (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1186,7 +1273,7 @@
                 {
                   "nome": "SALMÃO SELADO",
                   "preco": "R$ 19",
-                  "descricao": "Dupla de arroz coberto com corte de salmão selado (2 Un)",
+                  "descricao": "Dupla de arroz coberto com salmão selado (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1202,7 +1289,7 @@
                 {
                   "nome": "SALMON SKIN",
                   "preco": "R$ 18",
-                  "descricao": "Dupla de arroz coberto com corte de salmão skin (2 Un)",
+                  "descricao": "Dupla de arroz coberto com salmão skin (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1218,7 +1305,7 @@
                 {
                   "nome": "PEIXE BRANCO",
                   "preco": "R$ 19",
-                  "descricao": "Dupla de arroz coberto com corte de peixe branco (2 Un)",
+                  "descricao": "Dupla de arroz coberto com peixe branco (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1234,7 +1321,7 @@
                 {
                   "nome": "ATUM TORO",
                   "preco": "R$ 29",
-                  "descricao": "Dupla de arroz coberto com corte de atum torô (2 Un). Sujeito a disponibilidade",
+                  "descricao": "Dupla de arroz coberto com atum torô (2 Un) - Sujeito a disponibilidade",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1250,7 +1337,7 @@
                 {
                   "nome": "ATUM",
                   "preco": "R$ 22",
-                  "descricao": "Dupla de arroz coberto com corte de atum (2 Un)",
+                  "descricao": "Dupla de arroz coberto com atum (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1266,7 +1353,7 @@
                 {
                   "nome": "ATUM SELADO",
                   "preco": "R$ 23",
-                  "descricao": "Dupla de arroz coberto com corte de atum selado (2 Un)",
+                  "descricao": "Dupla de arroz coberto com atum selado (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1282,7 +1369,7 @@
                 {
                   "nome": "LULA",
                   "preco": "R$ 19",
-                  "descricao": "Dupla de arroz coberto com corte de lula (2 Un)",
+                  "descricao": "Dupla de arroz coberto com lula (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1298,7 +1385,7 @@
                 {
                   "nome": "POLVO",
                   "preco": "R$ 23",
-                  "descricao": "Dupla de arroz coberto com corte de polvo (2 Un)",
+                  "descricao": "Dupla de arroz coberto com polvo (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1314,13 +1401,13 @@
                 {
                   "nome": "POLVO ESPECIAL",
                   "preco": "R$ 24",
-                  "descricao": "Dupla de arroz coberto com corte de polvo com molho de ostra (2 Un)",
+                  "descricao": "Dupla de arroz coberto com polvo com molho de ostra (2 Un)",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
                     "meiaPorcao": false,
                     "semLactose": true,
-                    "semGluten": true,
+                    "semGluten": false,
                     "vegano": false,
                     "usarShoyu": false
                   },
@@ -1366,7 +1453,7 @@
                 },
                 {
                   "nome": "FOIE GRAS",
-                  "preco": "R$ 26",
+                  "preco": "R$ 28",
                   "descricao": "Dupla de foie gras sobre atum selado, fina tela de caramelo e leve toque de layu (2 Un)",
                   "observacoes": "",
                   "legenda": {
@@ -1495,12 +1582,12 @@
                 {
                   "nome": "YAKI KAI",
                   "preco": "R$ 23",
-                  "descricao": "Dupla de mexilhão (2 un)",
+                  "descricao": "Dupla de mexilhão (2 un) - Sujeito a Disponibilidade",
                   "observacoes": "",
                   "legenda": {
                     "favorito": true,
                     "meiaPorcao": false,
-                    "semLactose": false,
+                    "semLactose": true,
                     "semGluten": true,
                     "vegano": false,
                     "usarShoyu": false
@@ -1511,7 +1598,7 @@
                 {
                   "nome": "UNAGUI",
                   "preco": "R$ 34",
-                  "descricao": "Dupla de enguia (2 un)",
+                  "descricao": "Dupla de enguia (2 un) - Sujeito a Disponibilidade",
                   "observacoes": "",
                   "legenda": {
                     "favorito": false,
@@ -1659,7 +1746,7 @@
             {
               "nome": "SUSHI EXECUTIVO TRADICIONAL ",
               "preco": "R$ 78",
-              "descricao": "Servido somente no almoço - Inclui otoshi e sobremesa.  Disponível nas versões só salmão ou atum e salmão (13 sushis)",
+              "descricao": "Servido somente no almoço.- Inclui otoshi e sobremesa. Sushis tradicionais variados. Disponível também nas versões só salmão OU só atum com salmão (13 un)",
               "observacoes": "Executivo Tradicional R$ 78  / Exec. Trad. Só Salmão R$ 78  /   Exec. Trad. Atum e Salmão R$ 78",
               "legenda": {
                 "favorito": false,
@@ -1669,13 +1756,22 @@
                 "vegano": false,
                 "usarShoyu": true
               },
-              "opcoes": [],
-              "imagens": ["SUSHI_EXECUTIVO_TRADICIONAL_.jpg"]
+              "opcoes": [
+                { "nome": "Executivo Tradicional", "preco": "R$ 78" },
+                { "nome": "Exec. Trad. Só Salmão", "preco": "R$ 78" },
+                { "nome": "Exec. Trad. Atum e Salmão", "preco": "R$ 78" }
+              ],
+              "imagens": [
+                "SUSHI_EXECUTIVO_TRADICIONAL_.jpg",
+                "SUSHI_EXECUTIVO_TRADICIONAL__Executivo_Tradicional.jpg",
+                "SUSHI_EXECUTIVO_TRADICIONAL__Exec._Trad._So_Salmao.jpg",
+                "SUSHI_EXECUTIVO_TRADICIONAL__Exec._Trad._Atum_e_Salmao.jpg"
+              ]
             },
             {
               "nome": "SUSHI EXECUTIVO FUSION ",
               "preco": "R$ 84",
-              "descricao": "Servido somente no almoço - Inclui otoshi e sobremesa.  Disponível nas versões só salmão ou atum e salmão (13 sushis)",
+              "descricao": "Servido somente no almoço - Inclui otoshi e sobremesa. Sushis elaborados com a fusão de ingredientes tradicionais e ocidentais a base de salmão com complemento de atum e peixe branco. Disponível também nas versões só salmão OU só atum com salmão (13 un)",
               "observacoes": "Executivo Fusion R$ 84  / Exec. Fusion Só Salmão R$ 84  /   Exec. Fusion Atum e Salmão R$ 84",
               "legenda": {
                 "favorito": false,
@@ -1685,18 +1781,52 @@
                 "vegano": false,
                 "usarShoyu": true
               },
-              "opcoes": [],
-              "imagens": ["SUSHI_EXECUTIVO_FUSION_.jpg"]
+              "opcoes": [
+                { "nome": "Executivo Fusion", "preco": "R$ 84" },
+                { "nome": "Exec. Fusion Só Salmão", "preco": "R$ 84" },
+                { "nome": "Exec. Fusion Atum e Salmão", "preco": "R$ 84" }
+              ],
+              "imagens": [
+                "SUSHI_EXECUTIVO_FUSION_.jpg",
+                "SUSHI_EXECUTIVO_FUSION__Executivo_Fusion.jpg",
+                "SUSHI_EXECUTIVO_FUSION__Exec._Fusion_So_Salmao.jpg",
+                "SUSHI_EXECUTIVO_FUSION__Exec._Fusion_Atum_e_Salmao.jpg"
+              ]
+            },
+            {
+              "nome": "FUSION SUSHI",
+              "preco": "R$ 96",
+              "descricao": "Sushis elaborados com a fusão de ingredientes tradicionais e ocidentais a base de salmão com complemento de atum e peixe branco. Disponível também nas versões só salmão OU só atum com salmão ( un)",
+              "observacoes": "Fusion  R$ 96  / Fusion Só Salmão R$ 96  /  Fusion Atum e Salmão R$ 96",
+              "legenda": {
+                "favorito": false,
+                "meiaPorcao": false,
+                "semLactose": false,
+                "semGluten": false,
+                "vegano": false,
+                "usarShoyu": true
+              },
+              "opcoes": [
+                { "nome": "Fusion", "preco": "R$ 96" },
+                { "nome": "Fusion Só Salmão", "preco": "R$ 96" },
+                { "nome": "Fusion Atum e Salmão", "preco": "R$ 96" }
+              ],
+              "imagens": [
+                "FUSION_SUSHI.jpg",
+                "FUSION_SUSHI_Fusion.jpg",
+                "FUSION_SUSHI_Fusion_So_Salmao.jpg",
+                "FUSION_SUSHI_Fusion_Atum_e_Salmao.jpg"
+              ]
             },
             {
               "nome": "FULL TRADITIONAL SUSHI ",
               "preco": "R$ 127",
-              "descricao": "Sushis tradicionais com o melhor dos pescados e frutos do mar frescos e disponíveis, tais como: vieira canadense,  polvo, ovas (ikura e masago), enguia, camarão, lula, atum, salmão e peixe branco",
+              "descricao": "Sushis tradicionais com o melhor dos pescados e frutos do mar disponíveis, tais como: vieira canadense,  polvo, ovas (ikura e masago), enguia, camarão, lula, atum, salmão e peixe branco ( un)",
               "observacoes": "",
               "legenda": {
                 "favorito": true,
                 "meiaPorcao": false,
-                "semLactose": false,
+                "semLactose": true,
                 "semGluten": false,
                 "vegano": false,
                 "usarShoyu": true
@@ -1707,39 +1837,32 @@
             {
               "nome": "ONLY FISH TRADITIONAL SUSHI",
               "preco": "R$ 96",
-              "descricao": "Sushis tradicionais a base de salmão, atum e peixe branco. Disponível nas versões só salmão ou atum e salmão",
+              "descricao": "Sushis tradicionais só de peixes. A base de salmão com complemento de atum e peixe branco. Disponível também nas versões só salmão OU só atum com salmão ( un)",
               "observacoes": "Only Fish Trad. R$ 96  / Only Fish Trad. Só Salmão R$ 96  /  Only Fish Trad. Atum e Salmão R$ 96",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": false,
-                "semLactose": false,
-                "semGluten": false,
+                "semLactose": true,
+                "semGluten": true,
                 "vegano": false,
                 "usarShoyu": true
               },
-              "opcoes": [],
-              "imagens": ["ONLY_FISH_TRADITIONAL_SUSHI.jpg"]
-            },
-            {
-              "nome": "FUSION SUSHI",
-              "preco": "R$ 96",
-              "descricao": "Sushis elaborados com a fusão de ingredientes tradicionais e ocidentais a base de salmão com complemento de atum e peixe branco. Disponível nas versões só salmão ou atum e salmão",
-              "observacoes": "Fusion  R$ 96  / Fusion Só Salmão R$ 96  /  Fusion Atum e Salmão R$ 96",
-              "legenda": {
-                "favorito": false,
-                "meiaPorcao": false,
-                "semLactose": false,
-                "semGluten": false,
-                "vegano": false,
-                "usarShoyu": true
-              },
-              "opcoes": [],
-              "imagens": ["FUSION_SUSHI.jpg"]
+              "opcoes": [
+                { "nome": "Only Fish Trad.", "preco": "R$ 96" },
+                { "nome": "Only Fish Trad. Só Salmão ", "preco": "R$ 96" },
+                { "nome": "Only Fish Trad. Atum e Salmão", "preco": "R$ 96" }
+              ],
+              "imagens": [
+                "ONLY_FISH_TRADITIONAL_SUSHI.jpg",
+                "ONLY_FISH_TRADITIONAL_SUSHI_Only_Fish_Trad..jpg",
+                "ONLY_FISH_TRADITIONAL_SUSHI_Only_Fish_Trad._So_Salmao_.jpg",
+                "ONLY_FISH_TRADITIONAL_SUSHI_Only_Fish_Trad._Atum_e_Salmao.jpg"
+              ]
             },
             {
               "nome": "CHEF'S SELECTION SUSHI",
               "preco": "R$ 138",
-              "descricao": "Sushis customizados pelo chef de acordo com as preferências do cliente, dentre o melhor disponível da diversidade de pescados, frutos do mar e iguarias",
+              "descricao": "Sushis customizados pelo chef de acordo com as suas preferências dentre o melhor disponível da diversidade de pescados, frutos do mar e iguarias ( un)",
               "observacoes": "",
               "legenda": {
                 "favorito": true,
@@ -1755,13 +1878,13 @@
             {
               "nome": "NO RICE SUSHI",
               "preco": "R$ 89",
-              "descricao": "Combinação lowcarb de ceviche, 2 camarões médios e 2 fatias de sashimi de atum, salmao, peixe branco, polvo, lagosta e vieira canadense temperada",
+              "descricao": "Combinação lowcarb (sem arroz) composta por um mini ceviche, 2 camarões médios, 2 sashimi de atum, 2 sashimis de salmão, 2 sashimi de peixe branco, 2 sashimi de polvo, 2 sashimi de lagosta e 2 sashimi de vieira canadense temperada ( un)",
               "observacoes": "",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": false,
-                "semLactose": false,
-                "semGluten": false,
+                "semLactose": true,
+                "semGluten": true,
                 "vegano": false,
                 "usarShoyu": false
               },
@@ -1771,10 +1894,10 @@
             {
               "nome": "VEGGIE SUSHI",
               "preco": "R$ 85",
-              "descricao": "Combinação de sushis vegetarianos com abobrinha, wakame, abacate, tofu, beringela, alho poró e couve",
+              "descricao": "Combinação de sushis vegetarianos com abobrinha, wakame, abacate, tofu, beringela, alho poró e couve ( un)",
               "observacoes": "",
               "legenda": {
-                "favorito": false,
+                "favorito": true,
                 "meiaPorcao": false,
                 "semLactose": false,
                 "semGluten": false,
@@ -1787,7 +1910,7 @@
             {
               "nome": "FULL HOT STONE SASHIMI MIX",
               "preco": "R$ 88",
-              "descricao": "Mix de 2 sashimi de atum, 2 sashimi depeixe branco, 2 sashimi de atum, 2 camarões médios em cama de alho poró sobre pedra quente ",
+              "descricao": "Mix de sashimi em cama de alho poró sobre pedra quente (2 sashimi de atum, 2 sashimi de peixe branco, 2 sashimi de atum e 2 camarões médios - 8 un)",
               "observacoes": "",
               "legenda": {
                 "favorito": false,
@@ -1808,7 +1931,7 @@
           "itens": [
             {
               "nome": "SUKIYAKI",
-              "preco": "R$ 58",
+              "preco": "R$ 52",
               "descricao": "Cozido em panela de ferro com caldo vegetal, sake, shoyu, legumes, macarrão japonês e filé mignon ",
               "observacoes": "",
               "legenda": {
@@ -1824,7 +1947,7 @@
             },
             {
               "nome": "SEALED TUNA",
-              "preco": "R$ 65",
+              "preco": "R$ 59",
               "descricao": "Atum selado com alho e azeite extra virgem acompanhado de gohan spicy com crispy de tempurá",
               "observacoes": "",
               "legenda": {
@@ -1840,13 +1963,13 @@
             },
             {
               "nome": "EBI SAKANÁ",
-              "preco": "R$ 68",
+              "preco": "R$ 57",
               "descricao": "Peixe branco grelhado ao molho de camarão com alcaparras, tomate cereja e yakimeshi de shitake e brócolis",
               "observacoes": "",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": false,
-                "semLactose": false,
+                "semLactose": true,
                 "semGluten": true,
                 "vegano": false,
                 "usarShoyu": false
@@ -1856,8 +1979,8 @@
             },
             {
               "nome": "EBI WONG",
-              "preco": "R$ 74",
-              "descricao": "Camarões grandes grelhados, acompanhados de yakimeshi de shimeji com camarão (6 un)",
+              "preco": "R$ 69",
+              "descricao": "Camarões médios grelhados, acompanhados de yakimeshi de shimeji com camarão (4 un)",
               "observacoes": "",
               "legenda": {
                 "favorito": true,
@@ -1872,13 +1995,13 @@
             },
             {
               "nome": "TAKO JAM",
-              "preco": "R$ 72",
+              "preco": "R$ 67",
               "descricao": "Tentáculo de polvo e batata doce grelhados com molho curry ",
               "observacoes": "",
               "legenda": {
                 "favorito": true,
                 "meiaPorcao": false,
-                "semLactose": false,
+                "semLactose": true,
                 "semGluten": true,
                 "vegano": false,
                 "usarShoyu": false
@@ -1888,9 +2011,9 @@
             },
             {
               "nome": "GRELHADO DE FRUTOS DO MAR",
-              "preco": "R$ 73",
-              "descricao": "Salmão ou peixe branco grelhado com lula, kani, camarão, shimeji, shitake, batata, brócolis, couve-flor e cebola. ",
-              "observacoes": "",
+              "preco": "R$ 66",
+              "descricao": "Salmão OU peixe branco grelhado com lula, camarão, kani, mexilhão, shimeji, shitake, batata, brócolis, couve-flor e cebola",
+              "observacoes": "Salmão R$ 66 / Peixe Branco R$ 68",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": false,
@@ -1899,12 +2022,19 @@
                 "vegano": false,
                 "usarShoyu": false
               },
-              "opcoes": [],
-              "imagens": ["GRELHADO_DE_FRUTOS_DO_MAR.jpg"]
+              "opcoes": [
+                { "nome": "Salmão", "preco": "R$ 66" },
+                { "nome": "Peixe Branco", "preco": "R$ 68" }
+              ],
+              "imagens": [
+                "GRELHADO_DE_FRUTOS_DO_MAR.jpg",
+                "GRELHADO_DE_FRUTOS_DO_MAR_Salmao.jpg",
+                "GRELHADO_DE_FRUTOS_DO_MAR_Peixe_Branco.jpg"
+              ]
             },
             {
               "nome": "GRELHADO VEGANO",
-              "preco": "R$ 58",
+              "preco": "R$ 54",
               "descricao": "Legumes grelhados no alho e azeite extra virgem com gohan (arroz) picante",
               "observacoes": "",
               "legenda": {
@@ -1920,9 +2050,9 @@
             },
             {
               "nome": "TEPPAN ",
-              "preco": "R$ 59",
-              "descricao": "Sua escolha de grelhado na chapa entre Peixe Branco, Salmão, Mignon ou Camarão (4 un) com leve toque de alho; acompanha missoshiro, gohan e legumes",
-              "observacoes": "Teppan Peixe Branco R$ 59 / Teppan Salmão R$ 57 /  Teppan Camarão R$ 66 /  Teppan Mignon R$ 58",
+              "preco": "R$ 62",
+              "descricao": "Sua escolha de grelhado na chapa entre Peixe Branco, Salmão, Mignon OU Camarão (4 un) com leve toque de alh, gohan e legumes",
+              "observacoes": "Teppan Peixe Branco R$ 62 / Teppan Salmão R$ 59 /  Teppan Camarão R$ 66 /  Teppan Mignon R$ 59",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": false,
@@ -1931,13 +2061,24 @@
                 "vegano": false,
                 "usarShoyu": false
               },
-              "opcoes": [],
-              "imagens": ["TEPPAN_.jpg"]
+              "opcoes": [
+                { "nome": "Peixe Branco", "preco": "R$ 62" },
+                { "nome": "Salmão", "preco": "R$ 59" },
+                { "nome": "Camarão", "preco": "R$ 66" },
+                { "nome": "Mignon", "preco": "R$ 59" }
+              ],
+              "imagens": [
+                "TEPPAN_.jpg",
+                "TEPPAN__Peixe_Branco.jpg",
+                "TEPPAN__Salmao.jpg",
+                "TEPPAN__Camarao.jpg",
+                "TEPPAN__Mignon.jpg"
+              ]
             },
             {
               "nome": "TEMPURÁ",
               "preco": "R$ 38",
-              "descricao": "Sua escolha entre Legumes (6 un) ou Camarão (4 un) empanados em massa fina",
+              "descricao": "Sua escolha entre Legumes (6 un) OU Camarões (4 un) empanados em massa fina",
               "observacoes": "Tempura Legumes R$ 38 / Tempura Camarão R$ 51",
               "legenda": {
                 "favorito": false,
@@ -1947,14 +2088,17 @@
                 "vegano": true,
                 "usarShoyu": false
               },
-              "opcoes": [],
-              "imagens": ["TEMPURA.jpg"]
+              "opcoes": [
+                { "nome": "Legumes", "preco": "R$ 38" },
+                { "nome": "Camarão", "preco": "R$ 51" }
+              ],
+              "imagens": ["TEMPURA.jpg", "TEMPURA_Legumes.jpg", "TEMPURA_Camarao.jpg"]
             },
             {
               "nome": "YAKISSOBA",
-              "preco": "R$ 63",
-              "descricao": "Sua escolha entre Frutos do Mar, Mignon, Frango ou Legumes com macarrão japonês, legumes e moyashi",
-              "observacoes": "Yakissoba Frutos do Mar R$ 63 / Yakissoba Mignon R$ 57 / Yakissoba Frango R$ 53  /  Yakissoba Legumes R$ 48",
+              "preco": "R$ 59",
+              "descricao": "Sua escolha entre Frutos do Mar, Mignon, Frango OU Legumes com macarrão japonês, legumes e moyashi",
+              "observacoes": "Yakissoba Frutos do Mar R$ 59 / Yakissoba Mignon R$ 55 / Yakissoba Frango R$ 51  /  Yakissoba Legumes R$ 49",
               "legenda": {
                 "favorito": false,
                 "meiaPorcao": true,
@@ -1963,8 +2107,19 @@
                 "vegano": true,
                 "usarShoyu": false
               },
-              "opcoes": [],
-              "imagens": ["YAKISSOBA.jpg"]
+              "opcoes": [
+                { "nome": "Frutos do Mar", "preco": "R$ 59" },
+                { "nome": "Mignon", "preco": "R$ 55" },
+                { "nome": "Frango", "preco": "R$ 51" },
+                { "nome": "Legumes", "preco": "R$ 49" }
+              ],
+              "imagens": [
+                "YAKISSOBA.jpg",
+                "YAKISSOBA_Frutos_do_Mar.jpg",
+                "YAKISSOBA_Mignon.jpg",
+                "YAKISSOBA_Frango.jpg",
+                "YAKISSOBA_Legumes.jpg"
+              ]
             }
           ]
         }
@@ -1978,8 +2133,8 @@
         {
           "nome": "MOCHI ICE CREAM",
           "preco": "R$ 22",
-          "descricao": "Sorvete artesanal de doce de leite, caprichosamente envolto em camada surpreendente à base de arroz (2 un)",
-          "observacoes": "Contém chocolate e farofa de castanha",
+          "descricao": "Sorvete artesanal de doce de leite, chocolate belga OU lichia caprichosamente envolto em camada surpreendente à base de arroz (2 un)",
+          "observacoes": "Doce de Leite R$ 22 / Chocolate Belga R$ 22 / Lichia R$ 22",
           "legenda": {
             "favorito": false,
             "meiaPorcao": false,
@@ -1988,8 +2143,17 @@
             "vegano": false,
             "usarShoyu": false
           },
-          "opcoes": [],
-          "imagens": ["MOCHI_ICE_CREAM.jpg"]
+          "opcoes": [
+            { "nome": "Doce de Leite", "preco": "R$ 22" },
+            { "nome": "Chocolate Belga", "preco": "R$ 22" },
+            { "nome": "Lichia", "preco": "R$ 22" }
+          ],
+          "imagens": [
+            "MOCHI_ICE_CREAM.jpg",
+            "MOCHI_ICE_CREAM_Doce_de_Leite.jpg",
+            "MOCHI_ICE_CREAM_Chocolate_Belga.jpg",
+            "MOCHI_ICE_CREAM_Lichia.jpg"
+          ]
         },
         {
           "nome": "SWEET TEMAKI ",
@@ -2064,7 +2228,7 @@
             "favorito": false,
             "meiaPorcao": false,
             "semLactose": false,
-            "semGluten": false,
+            "semGluten": true,
             "vegano": false,
             "usarShoyu": false
           },
@@ -2079,8 +2243,8 @@
           "legenda": {
             "favorito": false,
             "meiaPorcao": false,
-            "semLactose": false,
-            "semGluten": false,
+            "semLactose": true,
+            "semGluten": true,
             "vegano": false,
             "usarShoyu": false
           },
@@ -2123,3 +2287,4 @@
     }
   ]
 }
+0
