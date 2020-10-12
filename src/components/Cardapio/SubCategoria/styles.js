@@ -1,20 +1,10 @@
 ﻿import styled from 'styled-components'
-import SliderBase from '../Slider'
+import SliderBase from '../../Slider'
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
-
-export const Content = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 1224px;
   width: 100%;
-
-  color: #fff;
+  font-family: 'Cormorant', serif;
+  margin-bottom: 5rem;
 `
 
 export const SliderContainer = styled.span`
@@ -63,6 +53,12 @@ export const Slider = styled(SliderBase)`
   margin-bottom: 2rem;
 `
 
+export const Title = styled.h1`
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+`
+
 export const Divider = styled.hr`
   width: 80%;
   background-color: #fff;
@@ -79,16 +75,4 @@ export const Divider = styled.hr`
   @media (max-width: 375px) {
     width: 40%;
   }
-`
-
-export const ContainerItem = styled.div`
-  width: 100%;
-  font-family: 'Cormorant', serif;
-`
-
-export const TitleItem = styled.div`
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 2rem;
 `

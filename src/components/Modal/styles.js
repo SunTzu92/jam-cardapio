@@ -1,5 +1,4 @@
 ﻿import styled from 'styled-components'
-import Img from 'react-cool-img'
 
 import SliderBase from '../Slider'
 
@@ -101,7 +100,7 @@ export const Slider = styled(SliderBase)`
   }
 `
 
-export const Image = styled(Img)`
+export const Image = styled.img`
   height: 200px;
   width: 100%;
   object-fit: cover;
@@ -174,3 +173,5 @@ export const Icons = styled.div`
   display: flex;
   width: 100%;
 `
+
+export const CardPreco = styled.div``

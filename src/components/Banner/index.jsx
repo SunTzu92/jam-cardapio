@@ -1,7 +1,7 @@
-﻿import React from 'react'
+﻿import React, { useCallback } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 
 import Slider from '../Slider'
-
 import * as S from './styles'
 
 import img1 from '../../assets/img/banner001.png'
@@ -13,26 +13,42 @@ import img5 from '../../assets/img/banner005.png'
 import imgEat from '../../assets/img/to-eatt_white.png'
 import imgDrink from '../../assets/img/to-drink_white.png'
 
+import { TYPES } from '../../reducers/menuReducer'
+
+const settings = {
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true
+}
+
 const Banner = () => {
-  const settings = {
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true
-  }
+  const menu = useSelector((state) => state.menu)
+  const dispatch = useDispatch()
+
+  const handleClick = useCallback(
+    (selected) => {
+      dispatch({ type: TYPES.CHANGE_MENU, payload: { selected } })
+    },
+    [dispatch]
+  )
 
   return (
     <S.Container>
       <S.Fallback>
         <S.Description>
-          <S.FigureDescription>
+          <S.FigureDescription onClick={(event) => handleClick('comidas')}>
             <S.ImgDescription src={imgEat} />
             <S.Text>TO EAT</S.Text>
+
+            {menu.selected === 'comidas' && <S.DividerSelected />}
           </S.FigureDescription>
           <S.Divider />
           <S.FigureDescription>
-            <S.ImgDescription src={imgDrink} />
+            <S.ImgDescription src={imgDrink} onClick={(event) => handleClick('bebidas')} />
             <S.Text>TO DRINK</S.Text>
+
+            {menu.selected === 'bebidas' && <S.DividerSelected />}
           </S.FigureDescription>
         </S.Description>
       </S.Fallback>

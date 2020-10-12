@@ -1,77 +1,37 @@
-﻿import React, { useCallback, useState } from 'react'
+﻿import React, { useCallback } from 'react'
+import { useSelector, useDispatch, shallowEqual } from 'react-redux'
+import { createSelector } from 'reselect'
+import _map from 'lodash/map'
 
-import IconFavoritos from '../Icons/Favoritos'
-import IconShoyu from '../Icons/Shoyu'
-import IconVegano from '../Icons/Vegano'
-import IconNoLactose from '../Icons/NoLactose'
-import IconNoGluten from '../Icons/NoGluten'
-import IconMeiaPorcao from '../Icons/MeiaPorcao'
-
+import { TYPES } from '../../reducers/legendaReducer'
+import LegendaItem from './Item'
 import * as S from './styles'
 
+const selectorLegenda = createSelector(
+  (state) => state.legenda,
+  (legendas) => legendas
+)
+
 const Legenda = () => {
-  const [active, setActive] = useState({
-    favoritos: true,
-    usarShoyu: true,
-    vegetariano: true,
-    semLactose: true,
-    semGluten: true,
-    meiaPorcao: true
-  })
+  const legendas = useSelector(selectorLegenda, shallowEqual)
+  const dispatch = useDispatch()
+  const dataSource = _map(legendas)
 
-  const clicaLegenda = useCallback((target, event) => {
-    if (event && event.detail !== 1) return
-
-    setActive((state) => ({
-      ...state,
-      [target]: !state[target]
-    }))
-  }, [])
+  const handleClick = useCallback(
+    (target) => {
+      dispatch({
+        type: TYPES.CHANGE_LEGENDA,
+        payload: { target, active: !legendas[target].active }
+      })
+    },
+    [legendas, dispatch]
+  )
 
   return (
     <S.Container>
-      <S.Item
-        onClick={(event) => clicaLegenda('favoritos', event)}
-        checked={active['favoritos']}
-      >
-        <IconFavoritos />
-        <span>Favoritos</span>
-      </S.Item>
-      <S.Item
-        onClick={(event) => clicaLegenda('usarShoyu', event)}
-        checked={active['usarShoyu']}
-      >
-        <IconShoyu />
-        <span>Usar Shoyu</span>
-      </S.Item>
-      <S.Item
-        onClick={(event) => clicaLegenda('vegetariano', event)}
-        checked={active['vegetariano']}
-      >
-        <IconVegano />
-        <span>Vegetariano</span>
-      </S.Item>
-      <S.Item
-        onClick={(event) => clicaLegenda('semLactose', event)}
-        checked={active['semLactose']}
-      >
-        <IconNoLactose />
-        <span>Sem Lactose</span>
-      </S.Item>
-      <S.Item
-        onClick={(event) => clicaLegenda('semGluten', event)}
-        checked={active['semGluten']}
-      >
-        <IconNoGluten />
-        <span>Sem Glúten</span>
-      </S.Item>
-      <S.Item
-        onClick={(event) => clicaLegenda('meiaPorcao', event)}
-        checked={active['meiaPorcao']}
-      >
-        <IconMeiaPorcao />
-        <span>Meia Porção</span>
-      </S.Item>
+      {dataSource.map((item, index) => (
+        <LegendaItem key={index} {...item} onClick={handleClick} />
+      ))}
     </S.Container>
   )
 }

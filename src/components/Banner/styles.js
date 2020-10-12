@@ -18,7 +18,7 @@ export const Content = styled.div`
   position: relative;
   display: flex !important;
   padding: 0;
-  height: 60vh;
+  height: 83vh;
   border: none;
   background: url(${({ bg }) => bg});
   background-position: center;
@@ -112,10 +112,19 @@ export const FigureDescription = styled.figure`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `
 
 export const ImgDescription = styled(Img)`
   height: 100px;
   width: 100px;
   object-fit: contain;
+`
+
+
+export const DividerSelected = styled.div`
+  width: 100%;
+  display: flex;
+  height: 2px;
+  background-color: #fff;
 `

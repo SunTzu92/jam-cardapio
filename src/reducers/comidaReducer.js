@@ -4,14 +4,14 @@
 }
 
 export const TYPES = {
-  BEBIDAS_LOADING_SUCCESS: 'BEBIDAS:LOADING_SUCCESS',
-  CHAMGE_MENU: 'BEBIDAS:CHANGE_MENU'
+  COMIDAS_LOADING_SUCCESS: 'COMIDAS:LOADING_SUCCESS',
+  CHAMGE_MENU: 'COMIDAS:CHANGE_MENU'
 }
 
 export default (state = INITIAL_STATE, action) => {
   const { type, payload } = action
   switch (type) {
-    case TYPES.BEBIDAS_LOADING_SUCCESS: {
+    case TYPES.COMIDAS_LOADING_SUCCESS: {
       const { selected, data } = payload
       return {
         ...state,

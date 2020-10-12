@@ -4,9 +4,9 @@ import { GrClose } from 'react-icons/gr'
 import Portal from '../Portal'
 import IconFavoritos from '../Icons/Favoritos'
 import IconShoyu from '../Icons/Shoyu'
-// import IconVegano from '../Icons/Vegano'
-// import IconNoLactose from '../Icons/NoLactose'
-// import IconNoGluten from '../Icons/NoGluten'
+import IconVegano from '../Icons/Vegano'
+import IconNoLactose from '../Icons/NoLactose'
+import IconNoGluten from '../Icons/NoGluten'
 import IconMeiaPorcao from '../Icons/MeiaPorcao'
 
 import * as S from './styles'
@@ -21,8 +21,10 @@ const settings = {
   initialSlide: 0,
 }
 
-const Modal = ({ children, images = [] }, ref) => {
+const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoes, preco, baseUrl }, ref) => {
   const [visible, setVisible] = useState(false)
+
+  const exibirPreco = !opcoes.length;
 
   const openModal = useCallback(() => {
     setVisible(true)
@@ -48,58 +50,60 @@ const Modal = ({ children, images = [] }, ref) => {
           </S.Actions>
 
           <S.Card>
-            <S.CardTitle>USSUZUKURI ESPECIAL</S.CardTitle>
+          <S.CardTitle>{nome}</S.CardTitle>
 
             <S.Slider settings={settings}>
-              {images.map((img, index) => (
-                <S.Image key={index} src={img} />
+              {imagens.map((img, index) => (
+                <S.Image key={index} src={`${baseUrl}${img}`} />
               ))}
             </S.Slider>
 
             <S.CardDescription>
               <span>
                 <strong>DESCRIÇÃO: </strong>
-                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor. Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
-                Finas fatias de peixes em forma de flor.
+                {descricao}
               </span>
             </S.CardDescription>
 
             <S.Divider />
 
-            <S.Opcoes>
-              <h4>OPÇÕES</h4>
-              {[
-                { tipo: 'salmão', preco: 'R$ 49, 99' },
-                { tipo: 'Atum', preco: 'R$ 49, 99' },
-                { tipo: 'Peixe Branco', preco: 'R$ 49, 99' }
-              ].map((opc, idx) => (
-                <S.OpcoesContent key={idx}>
-                  <S.Tipo>{opc.tipo}</S.Tipo>
-                  <S.Preco>{opc.preco}</S.Preco>
-                </S.OpcoesContent>
-              ))}
-            </S.Opcoes>
+            {!exibirPreco && (
+              <>
+                <S.Opcoes>
+                  <h4>OPÇÕES</h4>
+                  {opcoes.map((opc, idx) => (
+                    <S.OpcoesContent key={idx}>
+                      <S.Tipo>{opc.nome}</S.Tipo>
+                      <S.Preco>{opc.preco}</S.Preco>
+                    </S.OpcoesContent>
+                  ))}
+                </S.Opcoes>
 
-            <S.Divider />
+                <S.Divider />
+              </>
+            )}
+
+            {exibirPreco && (
+              <>
+                <S.CardPreco>
+                  <strong>Preço: {preco}</strong>
+                </S.CardPreco>
+                <S.Divider />
+              </>
+            )}
 
             <S.Classificacao>
               <S.ClassificacaoDescription>
-                OBSERVAÇÕES: polvo sujeito a alteração
+                OBSERVAÇÕES: {observacoes}
               </S.ClassificacaoDescription>
 
               <S.Icons>
-                <IconFavoritos white />
-                <IconShoyu white />
-                <IconMeiaPorcao white />
+                {legenda.favorito && <IconFavoritos white />}
+                {legenda.usarShoyu && <IconShoyu white />}
+                {legenda.vegano && <IconVegano white />}
+                {legenda.semLactose && <IconNoLactose white />}
+                {legenda.semGluten && <IconNoGluten white />}
+                {legenda.meiaPorcao && <IconMeiaPorcao white />}
               </S.Icons>
             </S.Classificacao>
           </S.Card>
