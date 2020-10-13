@@ -29,6 +29,9 @@ const Banner = () => {
   const handleClick = useCallback(
     (selected) => {
       dispatch({ type: TYPES.CHANGE_MENU, payload: { selected } })
+      document.querySelector('[name="scroll-to-cardapio"]').scrollIntoView({
+        behavior: 'smooth'
+      })
     },
     [dispatch]
   )
@@ -44,8 +47,8 @@ const Banner = () => {
             {menu.selected === 'comidas' && <S.DividerSelected />}
           </S.FigureDescription>
           <S.Divider />
-          <S.FigureDescription>
-            <S.ImgDescription src={imgDrink} onClick={(event) => handleClick('bebidas')} />
+          <S.FigureDescription onClick={(event) => handleClick('bebidas')}>
+            <S.ImgDescription src={imgDrink} />
             <S.Text>TO DRINK</S.Text>
 
             {menu.selected === 'bebidas' && <S.DividerSelected />}

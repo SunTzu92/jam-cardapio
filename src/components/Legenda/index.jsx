@@ -13,7 +13,10 @@ const selectorLegenda = createSelector(
 
 const Legenda = () => {
   const legendas = useSelector(selectorLegenda, shallowEqual)
+  const menuSelected = useSelector((state) => state.menu.selected)
   const dataSource = _map(legendas)
+
+  if (menuSelected === 'bebidas') return ''
 
   return (
     <S.Container>

@@ -52,7 +52,7 @@ function Cardapio() {
     : renderItens.bind(this, { itens, nome })
 
   return (
-    <S.Container>
+    <S.Container name="scroll-to-cardapio">
       <S.Content>{render()}</S.Content>
     </S.Container>
   )
