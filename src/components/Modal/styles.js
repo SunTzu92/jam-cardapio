@@ -20,9 +20,13 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
+  display: flex;
   padding: 2rem;
   width: 100%;
   max-width: 500px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   @media (max-width: 768px) {
     padding: 1rem;
@@ -34,11 +38,11 @@ export const Actions = styled.div`
   display: flex;
   justify-content: flex-end;
   padding: 1rem 0;
+  width: 100%;
 
   button {
     display: flex;
     position: relative;
-    right: -1rem;
     border: none;
     background-color: transparent;
     color: #fff;
@@ -98,6 +102,33 @@ export const Slider = styled(SliderBase)`
       padding: 0 0.25rem;
     }
   }
+`
+
+export const Figure = styled.figure`
+  margin: 0;
+  position: relative;
+`
+
+export const FigureDescription = styled.div`
+  position: absolute;
+  bottom: 0;
+  height: 5rem;
+  background-color: rgb(21 20 20 / 66%);
+  width: 100%;
+  height: auto;
+`
+
+export const FigureTitle = styled.div`
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.25rem;
+`
+
+export const FigurePreco = styled.div`
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.25rem;
 `
 
 export const Image = styled.img`

@@ -23,7 +23,7 @@ const settings = {
 
 const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoes, preco, baseUrl }, ref) => {
   const [visible, setVisible] = useState(false)
-
+  const imgLegendas = [...opcoes] || []
   const exibirPreco = !opcoes.length;
 
   const openModal = useCallback(() => {
@@ -38,6 +38,8 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
     setVisible(false)
   }, [])
 
+  imgLegendas.unshift({ nome, preco })
+
   return (
     <Portal open={visible}>
       <S.Container visible={visible} ref={ref} onClick={handlerCloseModal}>
@@ -50,11 +52,18 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
           </S.Actions>
 
           <S.Card>
-          <S.CardTitle>{nome}</S.CardTitle>
+            <S.CardTitle>{nome}</S.CardTitle>
 
             <S.Slider settings={settings}>
               {imagens.map((img, index) => (
-                <S.Image key={index} src={`${baseUrl}${img}`} />
+                <S.Figure key={index}>
+                  <S.Image src={`${baseUrl}${img}`} />
+
+                  <S.FigureDescription>
+                    <S.FigureTitle>{imgLegendas[index]?.nome ?? ''}</S.FigureTitle>
+                    <S.FigurePreco>{imgLegendas[index]?.preco ?? ''}</S.FigurePreco>
+                  </S.FigureDescription>
+                </S.Figure>
               ))}
             </S.Slider>
 
@@ -93,9 +102,7 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
             )}
 
             <S.Classificacao>
-              <S.ClassificacaoDescription>
-                OBSERVAÇÕES: {observacoes}
-              </S.ClassificacaoDescription>
+              <S.ClassificacaoDescription>OBSERVAÇÕES: {observacoes}</S.ClassificacaoDescription>
 
               <S.Icons>
                 {legenda.favorito && <IconFavoritos white />}
