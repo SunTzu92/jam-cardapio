@@ -43,7 +43,7 @@ export const Actions = styled.div`
     background-color: transparent;
     color: #fff;
     font-weight: 700;
-    font-family: arial;
+    font-family: arial !important;
     align-items: center;
 
     @media (max-width: 768px) {

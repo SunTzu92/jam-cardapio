@@ -3,7 +3,7 @@ import SliderBase from '../../Slider'
 
 export const Container = styled.div`
   width: 100%;
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', serif !important;
 `
 
 export const Title = styled.h1`

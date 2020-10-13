@@ -23,8 +23,12 @@ function App() {
 
   useEffect(() => {
     async function loadFile() {
-      const responseBebida = await fetch(`${process.env.PUBLIC_URL}/cardapio-bebidas.json`)
-      const responseComida = await fetch(`${process.env.PUBLIC_URL}/cardapio-comida.json`)
+      const responseBebida = await fetch(
+        `${process.env.REACT_APP_DOMAIN_BASE_STRUCTURE}/cardapio-bebidas.json`
+      )
+      const responseComida = await fetch(
+        `${process.env.REACT_APP_DOMAIN_BASE_STRUCTURE}/cardapio-comida.json`
+      )
 
       const { categorias: bebidas } = await responseBebida.json()
       const { categorias: comidas } = await responseComida.json()

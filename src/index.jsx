@@ -7,7 +7,7 @@ import 'intersection-observer'
 import store from './store'
 import App from './App'
 
-const rootEl = document.getElementById('root')
+const rootEl = document.querySelector('[data-react-app="cardapio"]')
 
 ReactDOM.render(
   <React.StrictMode>

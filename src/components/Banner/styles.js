@@ -82,6 +82,7 @@ export const Fallback = styled.div`
   display: flex;
   align-items: flex-end;
 `
+
 export const Description = styled.div`
   display: flex;
   width: 100%;
@@ -93,7 +94,7 @@ export const Description = styled.div`
 `
 
 export const Text = styled.span`
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', serif !important;
   font-size: 2rem;
   color: #fff;
 `

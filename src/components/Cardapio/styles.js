@@ -83,7 +83,7 @@ export const Divider = styled.hr`
 
 export const ContainerItem = styled.div`
   width: 100%;
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', serif !important;
 `
 
 export const TitleItem = styled.div`
