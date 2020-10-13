@@ -18,10 +18,10 @@ const tipoIcone = {
   meiaPorcao: IconMeiaPorcao
 }
 
-const Item = ({ title, name, active, onClick }) => {
+const Item = ({ title, name, active }) => {
   const Icon = tipoIcone[name]
   return (
-    <S.Item onClick={(event) => onClick(name)} checked={active}>
+    <S.Item>
       <span>{<Icon />}</span>
       {title}
     </S.Item>

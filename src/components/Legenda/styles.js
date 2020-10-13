@@ -28,7 +28,7 @@ export const Item = styled.button`
   cursor: pointer;
   font-weight: 700;
   font-size: 1rem;
-  font-family: 'Cormorant', serif;
+  font-family: 'Cormorant', serif !important;
 
   @media (max-width: 768px) {
     font-size: 1.1rem;
@@ -48,5 +48,5 @@ export const Item = styled.button`
     top: -1px;
   }
 
-  text-decoration: ${({ checked }) => (checked ? 'none' : 'line-through')};
+  text-decoration: 'none';
 `
