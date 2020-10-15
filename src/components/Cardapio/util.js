@@ -24,12 +24,12 @@ export const settings = {
   ],
   nextArrow: (
     <SlickButtonFix>
-      <TiChevronRight color={'#fff'} size={20} />
+      <TiChevronRight color={'#fff'} size={40} />
     </SlickButtonFix>
   ),
   prevArrow: (
     <SlickButtonFix>
-      <TiChevronLeft color={'#fff'} size={20} />
+      <TiChevronLeft color={'#fff'} size={40} />
     </SlickButtonFix>
   )
 }

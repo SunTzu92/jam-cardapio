@@ -41,20 +41,20 @@ export const SliderContainer = styled.span`
   .slick-prev {
     left: 4rem;
     top: inherit;
-    bottom: -52px;
+    bottom: -42px;
 
     @media (max-width: 768px) {
-      bottom: -41px;
+      bottom: -29px;
     }
   }
 
   .slick-next {
     right: 4rem;
     top: inherit;
-    bottom: -52px;
+    bottom: -42px;
 
     @media (max-width: 768px) {
-      bottom: -41px;
+      bottom: -29px;
     }
   }
 `
