@@ -83,3 +83,18 @@ export const Icons = styled.div`
   justify-content: space-evenly;
   padding: 0.3rem 3rem;
 `
+
+export const InfoPrice = styled.div`
+  display: flex;
+  padding: 0.3rem;
+  justify-content: space-between;
+`
+
+export const Price = styled.div`
+  color: #fff;
+  font-size: 1.5rem;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+`

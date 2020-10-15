@@ -12,20 +12,20 @@ import Modal from '../../Modal'
 
 import * as S from './styles'
 
-const getTypeUrl = selected => {
+const getTypeUrl = (selected) => {
   if (selected === 'comidas') return 'eat'
   else return 'drink'
 }
 
-const Item = ({ nome, legenda, imagens, ...rest }) => {
-  const menuSelected = useSelector(state => state.menu.selected)
+const Item = ({ nome, legenda, imagens, preco, ...rest }) => {
+  const menuSelected = useSelector((state) => state.menu.selected)
   const modalRef = useRef(null)
   const handleOpenModal = useCallback(() => modalRef.current?.openModal(), [modalRef])
 
   const typeUrl = getTypeUrl(menuSelected)
-  const img = imagens[0] ?? '';
+  const img = imagens[0] ?? ''
 
-  const baseUrl = `http://www.jam.com.br/Images/cardapio/${typeUrl}/`;
+  const baseUrl = `http://www.jam.com.br/Images/cardapio/${typeUrl}/`
 
   return (
     <>
@@ -34,17 +34,29 @@ const Item = ({ nome, legenda, imagens, ...rest }) => {
 
         <S.Description>
           <S.Title>{nome}</S.Title>
-          <S.Icons>
-            {legenda.favorito && <IconFavoritos white />}
-            {legenda.usarShoyu && <IconShoyu white />}
-            {legenda.vegano && <IconVegano white />}
-            {legenda.semLactose && <IconNoLactose white />}
-            {legenda.semGluten && <IconNoGluten white />}
-            {legenda.meiaPorcao && <IconMeiaPorcao white />}
-          </S.Icons>
+
+          <S.InfoPrice>
+            <S.Price> {preco} </S.Price>
+            <S.Icons>
+              {(legenda.favorito || true) && <IconFavoritos white />}
+              {(legenda.usarShoyu || true) && <IconShoyu white />}
+              {(legenda.vegano || true) && <IconVegano white />}
+              {(legenda.semLactose || true) && <IconNoLactose white />}
+              {(legenda.semGluten || true) && <IconNoGluten white />}
+              {(legenda.meiaPorcao || true) && <IconMeiaPorcao white />}
+            </S.Icons>
+          </S.InfoPrice>
         </S.Description>
       </S.Container>
-      <Modal ref={modalRef} {...rest} nome={nome} legenda={legenda} imagens={imagens} baseUrl={baseUrl} />
+      <Modal
+        ref={modalRef}
+        {...rest}
+        nome={nome}
+        legenda={legenda}
+        imagens={imagens}
+        preco={preco}
+        baseUrl={baseUrl}
+      />
     </>
   )
 }
