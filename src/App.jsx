@@ -1,5 +1,6 @@
 ﻿import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
+import { StickyContainer } from 'react-sticky'
 import styled from 'styled-components'
 
 import Menu from './components/Menu'
@@ -41,12 +42,14 @@ function App() {
   }, [dispatch])
 
   return (
-    <StyleContainer>
-      <Banner />
-      <Menu />
-      <Legenda />
-      <Cardapio />
-    </StyleContainer>
+    <StickyContainer>
+      <StyleContainer>
+        <Banner />
+        <Menu />
+        <Legenda />
+        <Cardapio />
+      </StyleContainer>
+    </StickyContainer>
   )
 }
 

@@ -1,6 +1,7 @@
-﻿import React, { useCallback } from 'react'
+﻿import React, { useCallback, useRef, useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { createSelector } from 'reselect'
+import { Sticky } from 'react-sticky'
 import _map from 'lodash/map'
 
 import { TYPES as TYPES_BEBIDA } from '../../reducers/bebidaReducer'
@@ -27,9 +28,11 @@ const Item = ({ showDivider, ...rest }) => (
   </>
 )
 
-
 function Menu() {
   const state = useSelector(selectorMenu)
+  const menuRef = useRef(null)
+  const [offset, setOffSet] = useState(0)
+
   const dispatch = useDispatch()
 
   const listMenu = _map(state.menu.itens)
@@ -37,24 +40,34 @@ function Menu() {
   const selectedMenu = state.selected
 
   const handleClick = useCallback(
-    (selected) => {
-      dispatch({ type: TYPE_CONTEXT[selectedMenu].CHAMGE_MENU, payload: { selected } })
-    },
+    (selected) => dispatch({ type: TYPE_CONTEXT[selectedMenu].CHAMGE_MENU, payload: { selected } }),
     [selectedMenu, dispatch]
   )
 
+  useEffect(() => {
+    const menuTop = menuRef.current?.offsetTop
+    setOffSet(menuTop)
+  }, [setOffSet])
+
   return (
-    <S.Container>
-      {listMenu.map(({ itens, ...rest }, index) => (
-        <Item
-          key={index}
-          {...rest}
-          onClick={handleClick}
-          active={state.menu.selected}
-          showDivider={total !== index}
-        />
-      ))}
-    </S.Container>
+    <>
+      <span ref={menuRef}></span>
+      <Sticky topOffset={offset}>
+        {({ style }) => (
+          <S.Container style={style}>
+            {listMenu.map(({ itens, ...rest }, index) => (
+              <Item
+                key={index}
+                {...rest}
+                onClick={handleClick}
+                active={state.menu.selected}
+                showDivider={total !== index}
+              />
+            ))}
+          </S.Container>
+        )}
+      </Sticky>
+    </>
   )
 }
 
