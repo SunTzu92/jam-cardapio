@@ -73,7 +73,7 @@ export const Description = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgb(0 0 0 / 59%);
+  background-color: rgb(0 0 0 / 40%);
   min-height: 4.38rem;
 `
 
