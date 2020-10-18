@@ -6,7 +6,7 @@ import Categoria from './Categoria'
 import Item from './Item'
 import * as S from './styles'
 import { settings } from './util'
-// import { filterItens } from '../../helpers'
+import { filterItens } from '../../helpers'
 
 const selectorCardapio = createSelector(
   (state) => state,
@@ -17,7 +17,7 @@ const selectorCardapio = createSelector(
 const renderCategoria = (dataSource) =>
   dataSource.map((categoria, index) => <Categoria key={index} {...categoria} />)
 
-const renderItens = ({  itens = [], nome  }) => {
+const renderItens = ({ itens = [], nome }) => {
   let slidesToShow = 3
   if (itens.length < 3) {
     if (itens.length === 2) slidesToShow = 2
@@ -41,15 +41,15 @@ const renderItens = ({  itens = [], nome  }) => {
 }
 
 function Cardapio() {
-  // const menuLegendas = useSelector((state) => state.legenda)
+  const legendaSelected = useSelector((state) => state.legenda.selected)
   const { itens: card, selected } = useSelector(selectorCardapio)
 
   const { subcategorias = [], itens = [], nome = '' } = card[selected] || {}
-  // const newItens = filterItens(itens, menuLegendas)
+  const newItens = filterItens(itens, legendaSelected)
 
   const render = !itens.length
     ? renderCategoria.bind(this, subcategorias)
-    : renderItens.bind(this, { itens, nome })
+    : renderItens.bind(this, { itens: newItens, nome })
 
   return (
     <S.Container name="scroll-to-cardapio">

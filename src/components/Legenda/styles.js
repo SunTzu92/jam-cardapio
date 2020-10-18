@@ -20,15 +20,18 @@ export const Item = styled.button`
   align-items: center;
   background-color: #fff;
   padding: 0.5rem;
-  border: none;
+  border: 1px solid transparent;
   margin: 0 1rem;
   color: #455a64;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
+
   cursor: pointer;
   font-weight: 700;
   font-size: 1rem;
   font-family: 'Cormorant', serif !important;
+
+  border-color: ${({ active }) => (active ? '#455a64' : 'transparent')};
 
   @media (max-width: 768px) {
     font-size: 1.1rem;

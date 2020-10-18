@@ -1,19 +1,19 @@
 ﻿import React from 'react'
-// import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 import Item from '../Item'
 import { settings } from '../util'
 import * as S from './styles'
 
-// import { filterItens } from '../../../helpers'
+import { filterItens } from '../../../helpers'
 
 const SubCategoria = ({ nome, itens }) => {
-  // const menuLegendas = useSelector((state) => state.legenda)
-  // const newItens = filterItens(itens, menuLegendas)
+  const legendaSelected = useSelector((state) => state.legenda.selected)
+  const newItens = filterItens(itens, legendaSelected)
 
   let slidesToShow = 3
-  if (itens.length < 3) {
-    if (itens.length === 2) slidesToShow = 2
+  if (newItens.length < 3) {
+    if (newItens.length === 2) slidesToShow = 2
     else slidesToShow = 1
   }
 
@@ -23,7 +23,7 @@ const SubCategoria = ({ nome, itens }) => {
 
       <S.SliderContainer>
         <S.Slider settings={{ ...settings, slidesToShow }}>
-          {itens.map((item, index) => (
+          {newItens.map((item, index) => (
             <Item key={index} {...item} />
           ))}
         </S.Slider>

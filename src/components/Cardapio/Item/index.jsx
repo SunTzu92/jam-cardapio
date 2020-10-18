@@ -38,12 +38,12 @@ const Item = ({ nome, legenda, imagens, preco, ...rest }) => {
           <S.InfoPrice>
             <S.Price> {preco} </S.Price>
             <S.Icons>
-              {(legenda.favorito || true) && <IconFavoritos white />}
-              {(legenda.usarShoyu || true) && <IconShoyu white />}
-              {(legenda.vegano || true) && <IconVegano white />}
-              {(legenda.semLactose || true) && <IconNoLactose white />}
-              {(legenda.semGluten || true) && <IconNoGluten white />}
-              {(legenda.meiaPorcao || true) && <IconMeiaPorcao white />}
+              {legenda.favorito && <IconFavoritos white />}
+              {legenda.usarShoyu && <IconShoyu white />}
+              {legenda.vegano && <IconVegano white />}
+              {legenda.semLactose && <IconNoLactose white />}
+              {legenda.semGluten && <IconNoGluten white />}
+              {legenda.meiaPorcao && <IconMeiaPorcao white />}
             </S.Icons>
           </S.InfoPrice>
         </S.Description>

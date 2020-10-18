@@ -1,14 +1,12 @@
 ﻿import React from 'react'
-// import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 import SubCategoria from '../SubCategoria'
-
 import Item from '../Item'
 import { settings } from '../util'
-// import { filterItens } from '../../../helpers'
+import { filterItens } from '../../../helpers'
 
 import * as S from './styles'
-
 
 const renderCategoria = (itens = []) =>
   itens.map((item, index) => <SubCategoria key={index} {...item} />)
@@ -34,12 +32,13 @@ const renderItens = (itens = []) => {
 }
 
 const Categoria = ({ nome, itens, seccoes }) => {
-  // const menuLegendas = useSelector((state) => state.legenda)
-  // const newItens = filterItens(itens, menuLegendas)
+  const legendaSelected = useSelector((state) => state.legenda.selected)
+  const newItens = filterItens(itens, legendaSelected)
 
   const render = !itens.length
     ? renderCategoria.bind(this, seccoes)
-    : renderItens.bind(this, itens)
+    : renderItens.bind(this, newItens)
+
   return (
     <S.Container>
       <S.Title>{nome}</S.Title>

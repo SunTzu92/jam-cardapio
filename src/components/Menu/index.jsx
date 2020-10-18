@@ -40,7 +40,9 @@ function Menu() {
   const selectedMenu = state.selected
 
   const handleClick = useCallback(
-    (selected) => dispatch({ type: TYPE_CONTEXT[selectedMenu].CHAMGE_MENU, payload: { selected } }),
+    (selected) => {
+      dispatch({ type: TYPE_CONTEXT[selectedMenu].CHAMGE_MENU, payload: { selected } })
+    },
     [selectedMenu, dispatch]
   )
 
