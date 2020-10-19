@@ -9,6 +9,7 @@ import img2 from '../../assets/img/banner002.png'
 import img3 from '../../assets/img/banner003.png'
 import img4 from '../../assets/img/banner004.png'
 import img5 from '../../assets/img/banner005.png'
+import imgBanner from '../../assets/img/banner.jpeg'
 
 import imgEat from '../../assets/img/to-eatt_white.png'
 import imgDrink from '../../assets/img/to-drink_white.png'
@@ -16,10 +17,10 @@ import imgDrink from '../../assets/img/to-drink_white.png'
 import { TYPES } from '../../reducers/menuReducer'
 
 const settings = {
-  infinite: true,
+  infinite: false,
   slidesToShow: 1,
   slidesToScroll: 1,
-  autoplay: true
+  autoplay: false
 }
 
 const Banner = () => {
@@ -55,6 +56,10 @@ const Banner = () => {
           </S.FigureDescription>
         </S.Description>
       </S.Fallback>
+
+      <S.BannerAviso>
+        <S.BannerImg src={imgBanner} />
+      </S.BannerAviso>
 
       <Slider settings={settings}>
         <S.Content bg={img1} />
