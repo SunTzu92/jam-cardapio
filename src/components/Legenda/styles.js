@@ -11,6 +11,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     flex-wrap: wrap;
+    height: auto;
     padding: 1rem 0;
   }
 `
@@ -25,6 +26,7 @@ export const Item = styled.button`
   color: #455a64;
   text-transform: uppercase;
   transition: all 0.3s ease-in;
+  min-width: 110px;
 
   cursor: pointer;
   font-weight: 700;
