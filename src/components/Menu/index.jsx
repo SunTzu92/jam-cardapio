@@ -47,16 +47,18 @@ function Menu() {
   )
 
   useEffect(() => {
-    const menuTop = menuRef.current?.offsetTop
-    setOffSet(menuTop)
+    setTimeout(() => {
+      const menuTop = menuRef.current?.offsetTop
+      setOffSet(menuTop)
+    }, 1000);
   }, [setOffSet])
 
   return (
     <>
       <span ref={menuRef}></span>
       <Sticky topOffset={offset}>
-        {({ style }) => (
-          <S.Container style={style}>
+        {({ style, isSticky }) => (
+          <S.Container style={style} isSticky={isSticky}>
             {listMenu.map(({ itens, ...rest }, index) => (
               <Item
                 key={index}

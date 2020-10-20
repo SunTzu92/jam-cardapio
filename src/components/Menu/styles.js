@@ -10,6 +10,10 @@ export const Container = styled.div`
   margin-bottom: 2rem;
   flex-wrap: wrap;
   z-index: 1000;
+
+  @media (max-width: 768px) {
+    height: ${({ isSticky }) => (isSticky ? '70px' : '100px')};
+  }
 `
 
 export const Button = styled.button`
