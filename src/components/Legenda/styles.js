@@ -8,9 +8,9 @@ export const Container = styled.div`
   align-items: center;
   color: #fff;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 
   @media (max-width: 768px) {
-    flex-wrap: wrap;
     height: auto;
     padding: 1rem 0;
   }
