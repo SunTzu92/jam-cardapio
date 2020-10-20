@@ -6,6 +6,8 @@ export const Container = styled.div`
   flex-direction: column;
   position: relative;
   margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
 
   .slick-prev,
   .slick-next {
@@ -16,10 +18,12 @@ export const Container = styled.div`
 
 export const BannerTop = styled.div`
   display: flex;
+  max-width: 1224px;
 `
 
 export const BannerBottom = styled.div`
   display: flex;
+  max-width: 1224px;
 `
 
 export const Content = styled.div`

@@ -6,7 +6,8 @@ import * as S from './styles'
 
 import imgEat from '../../assets/img/to-eatt_white.png'
 import imgDrink from '../../assets/img/to-drink_white.png'
-import imgBannerTop from '../../assets/img/banner.jpeg'
+import imgBannerTop from '../../assets/img/banner.top.jpeg'
+import imgBannerBottom from '../../assets/img/banner.bottom.jpeg'
 import imgBannerMobileTop from '../../assets/img/banner.mobile.top.jpeg'
 import imgBannerMobileBottom from '../../assets/img/banner.mobile.bottom.jpeg'
 
@@ -27,6 +28,7 @@ const Banner = () => {
   )
 
   const srcBannerTop = isMobile || isMobileSafari ? imgBannerMobileTop : imgBannerTop
+  const srcBannerBottom = isMobile || isMobileSafari ? imgBannerMobileBottom : imgBannerBottom
 
   return (
     <S.Container>
@@ -50,11 +52,9 @@ const Banner = () => {
         </S.FigureDescription>
       </S.Description>
 
-      {(isMobile || isMobileSafari) && (
-        <S.BannerBottom>
-          <S.BannerImg src={imgBannerMobileBottom} />
-        </S.BannerBottom>
-      )}
+      <S.BannerBottom>
+        <S.BannerImg src={srcBannerBottom} />
+      </S.BannerBottom>
     </S.Container>
   )
 }
