@@ -1,6 +1,5 @@
 ﻿import styled from 'styled-components'
 import Img from 'react-cool-img'
-import { BrowserView, MobileView } from 'react-device-detect'
 
 export const Container = styled.div`
   display: flex;
@@ -13,6 +12,14 @@ export const Container = styled.div`
     position: absolute;
     visibility: hidden;
   }
+`
+
+export const BannerTop = styled.div`
+  display: flex;
+`
+
+export const BannerBottom = styled.div`
+  display: flex;
 `
 
 export const Content = styled.div`
@@ -63,15 +70,6 @@ export const Content = styled.div`
   }
 `
 
-export const Figure = styled.figure`
-  margin: 0;
-`
-
-export const Image = styled.img`
-  width: 100%;
-  object-fit: cover;
-`
-
 export const Fallback = styled.div`
   position: absolute;
   top: 0;
@@ -89,7 +87,7 @@ export const Description = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem 2rem;
   height: 50%;
   opacity: 0.8;
 `
@@ -98,14 +96,15 @@ export const Text = styled.span`
   font-family: 'Cormorant', serif !important;
   font-size: 2rem;
   color: #fff;
+  padding: 1rem 0.5rem;
 `
 
 export const Divider = styled.div`
   display: inline-block;
-  height: 80%;
+  height: 150px;
   width: 2px;
   background-color: #fff;
-  margin: 0 3rem;
+  margin: 0 1rem;
 `
 
 export const FigureDescription = styled.figure`
@@ -114,6 +113,7 @@ export const FigureDescription = styled.figure`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem 1.2rem;
   cursor: pointer;
 `
 
@@ -130,34 +130,12 @@ export const DividerSelected = styled.div`
   background-color: #fff;
 `
 
-export const BannerMobileAviso = styled.div`
-  display: flex;
-  height: auto;
-
-  justify-content: center;
-
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-`
-
-export const BannerAviso = styled.div`
-  display: flex;
-  height: 100vh;
-
-  justify-content: center;
-
-  img {
-    width: auto;
-    height: 100%;
-    object-fit: cover;
-  }
-`
-
-export const BannerImg = styled.img``
-
 export const ContentSlider = styled.div`
   position: relative;
+`
+
+export const BannerImg = styled.img`
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 `
