@@ -1,5 +1,6 @@
 ﻿import styled from 'styled-components'
 import Img from 'react-cool-img'
+import { BrowserView, MobileView } from 'react-device-detect'
 
 export const Container = styled.div`
   display: flex;
@@ -129,24 +130,34 @@ export const DividerSelected = styled.div`
   background-color: #fff;
 `
 
+export const BannerMobileAviso = styled.div`
+  display: flex;
+  height: auto;
+
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+`
+
 export const BannerAviso = styled.div`
   display: flex;
   height: 100vh;
 
-  @media (max-width: 768px) {
-    height: auto;
-  }
-
   justify-content: center;
+
+  img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
 `
 
-export const BannerImg = styled.img`
-  width: auto;
-  height: 100%;
-  object-fit: cover;
+export const BannerImg = styled.img``
 
-  @media (max-width: 768px) {
-    width: 100%;
-    height: auto;
-  }
+export const ContentSlider = styled.div`
+  position: relative;
 `
