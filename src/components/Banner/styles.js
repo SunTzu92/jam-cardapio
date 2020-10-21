@@ -143,6 +143,6 @@ export const ContentSlider = styled.div`
 
 export const BannerImg = styled.img`
   width: 100%;
-  height: auto;
+  /* height: initial; */
   object-fit: contain;
 `
