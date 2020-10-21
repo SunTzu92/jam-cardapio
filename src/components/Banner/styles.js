@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin-bottom: 2rem;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   .slick-prev,
   .slick-next {
@@ -19,11 +20,13 @@ export const Container = styled.div`
 export const BannerTop = styled.div`
   display: flex;
   max-width: 1224px;
+  width: 100%;
 `
 
 export const BannerBottom = styled.div`
   display: flex;
   max-width: 1224px;
+  width: 100%;
 `
 
 export const Content = styled.div`
@@ -141,5 +144,4 @@ export const ContentSlider = styled.div`
 export const BannerImg = styled.img`
   width: 100%;
   height: auto;
-  object-fit: cover;
 `
