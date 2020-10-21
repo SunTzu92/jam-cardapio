@@ -11,12 +11,13 @@ import Legenda from './components/Legenda'
 import * as actionsBebida from './actions/actionsBebida'
 import * as actionsComida from './actions/actionsComida'
 
-const StyleContainer = styled.div`
+const StyleContainer = styled(StickyContainer)`
   display: flex;
   flex-direction: column;
   background-color: #000;
   height: 100%;
   padding-bottom: 5rem;
+  width: 100%;
 `
 
 function App() {
@@ -42,14 +43,12 @@ function App() {
   }, [dispatch])
 
   return (
-    <StickyContainer>
       <StyleContainer>
         <Banner />
         <Menu />
         <Legenda />
         <Cardapio />
       </StyleContainer>
-    </StickyContainer>
   )
 }
 
