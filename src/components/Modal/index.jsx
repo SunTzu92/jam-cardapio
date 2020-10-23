@@ -1,30 +1,17 @@
 ﻿import React, { useState, useCallback, useImperativeHandle, forwardRef } from 'react'
 import { GrClose } from 'react-icons/gr'
+import { withOrientationChange } from 'react-device-detect'
 
 import Portal from '../Portal'
-import IconFavoritos from '../Icons/Favoritos'
-import IconShoyu from '../Icons/Shoyu'
-import IconVegano from '../Icons/Vegano'
-import IconNoLactose from '../Icons/NoLactose'
-import IconNoGluten from '../Icons/NoGluten'
-import IconMeiaPorcao from '../Icons/MeiaPorcao'
 
+import Slider from './Slider'
+import Information from './Information'
 import * as S from './styles'
 
-const settings = {
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  pauseOnHover: true,
-  speed: 1000,
-  initialSlide: 0,
-}
+const Modal = (props, ref) => {
+  const { imagens, descricao, legenda, nome, observacoes, opcoes, preco, baseUrl } = props
 
-const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoes, preco, baseUrl }, ref) => {
   const [visible, setVisible] = useState(false)
-  const imgLegendas = [...opcoes] || []
-  const exibirPreco = !opcoes.length;
 
   const openModal = useCallback(() => {
     setVisible(true)
@@ -37,8 +24,6 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
   const handlerCloseModal = useCallback(() => {
     setVisible(false)
   }, [])
-
-  imgLegendas.unshift({ nome, preco })
 
   return (
     <Portal open={visible}>
@@ -54,65 +39,15 @@ const Modal = ({ children, imagens, descricao, legenda, nome, observacoes, opcoe
           <S.Card>
             <S.CardTitle>{nome}</S.CardTitle>
 
-            <S.Slider settings={settings}>
-              {imagens.map((img, index) => (
-                <S.Figure key={index}>
-                  <S.Image src={`${baseUrl}${img}`} />
+            <Slider nome={nome} preco={preco} imagens={imagens} baseUrl={baseUrl} opcoes={opcoes} />
 
-                  <S.FigureDescription>
-                    <S.FigureTitle>{imgLegendas[index]?.nome ?? ''}</S.FigureTitle>
-                    <S.FigurePreco>{imgLegendas[index]?.preco ?? ''}</S.FigurePreco>
-                  </S.FigureDescription>
-                </S.Figure>
-              ))}
-            </S.Slider>
-
-            <S.CardDescription>
-              <span>
-                <strong>DESCRIÇÃO: </strong>
-                {descricao}
-              </span>
-            </S.CardDescription>
-
-            <S.Divider />
-
-            {!exibirPreco && (
-              <>
-                <S.Opcoes>
-                  <h4>OPÇÕES</h4>
-                  {opcoes.map((opc, idx) => (
-                    <S.OpcoesContent key={idx}>
-                      <S.Tipo>{opc.nome}</S.Tipo>
-                      <S.Preco>{opc.preco}</S.Preco>
-                    </S.OpcoesContent>
-                  ))}
-                </S.Opcoes>
-
-                <S.Divider />
-              </>
-            )}
-
-            {exibirPreco && (
-              <>
-                <S.CardPreco>
-                  <strong>Preço: {preco}</strong>
-                </S.CardPreco>
-                <S.Divider />
-              </>
-            )}
-
-            <S.Classificacao>
-              <S.ClassificacaoDescription>OBSERVAÇÕES: {observacoes}</S.ClassificacaoDescription>
-
-              <S.Icons>
-                {legenda.favorito && <IconFavoritos white />}
-                {legenda.usarShoyu && <IconShoyu white />}
-                {legenda.vegano && <IconVegano white />}
-                {legenda.semLactose && <IconNoLactose white />}
-                {legenda.semGluten && <IconNoGluten white />}
-                {legenda.meiaPorcao && <IconMeiaPorcao white />}
-              </S.Icons>
-            </S.Classificacao>
+            <Information
+              descricao={descricao}
+              opcoes={opcoes}
+              preco={preco}
+              observacoes={observacoes}
+              legenda={legenda}
+            />
           </S.Card>
         </S.Content>
       </S.Container>
