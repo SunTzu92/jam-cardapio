@@ -69,7 +69,7 @@ export const Divider = styled.hr`
   height: 2px;
 
   @media (max-width: 768px) {
-    width: 70%;
+    width: 60%;
   }
 
   @media (max-width: 425px) {
