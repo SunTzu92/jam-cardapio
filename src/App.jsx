@@ -1,12 +1,15 @@
 ﻿import React, { useEffect } from 'react'
+import styled from 'styled-components'
 import { useDispatch } from 'react-redux'
 import { StickyContainer } from 'react-sticky'
-import styled from 'styled-components'
+import { withOrientationChange } from 'react-device-detect'
 
 import Menu from './components/Menu'
 import Banner from './components/Banner'
 import Cardapio from './components/Cardapio'
 import Legenda from './components/Legenda'
+
+import { OrientationProvider } from './context/orientation'
 
 import * as actionsBebida from './actions/actionsBebida'
 import * as actionsComida from './actions/actionsComida'
@@ -20,7 +23,7 @@ const StyleContainer = styled(StickyContainer)`
   width: 100%;
 `
 
-function App() {
+function App({ isLandscape, isPortrait }) {
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -43,13 +46,15 @@ function App() {
   }, [dispatch])
 
   return (
+    <OrientationProvider value={{ isLandscape, isPortrait }}>
       <StyleContainer>
         <Banner />
         <Menu />
         <Legenda />
         <Cardapio />
       </StyleContainer>
+    </OrientationProvider>
   )
 }
 
-export default App
+export default withOrientationChange(App)
