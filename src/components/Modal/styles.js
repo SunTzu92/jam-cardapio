@@ -84,5 +84,9 @@ export const CardTitle = styled.h3`
 
 export const OrientationView = styled.div`
   display: flex;
-  flex-direction: ${({ isPortrait }) => (isPortrait ? 'column' : 'row')};
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    flex-direction: ${({ isPortrait }) => (isPortrait ? 'column' : 'row')};
+  }
 `
