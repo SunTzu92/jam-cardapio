@@ -2,6 +2,7 @@
 import SliderBase from '../../Slider'
 
 export const Slider = styled(SliderBase)`
+  flex: 1;
   margin-bottom: 2rem;
 
   .slick-prev,

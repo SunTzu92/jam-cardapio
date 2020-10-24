@@ -12,7 +12,7 @@ export const Container = styled.div`
   z-index: 1000;
 
   @media (max-width: 768px) {
-    height: ${({ isSticky }) => (isSticky ? '70px' : '100px')};
+    height: ${({ isSticky }) => (isSticky ? '50px' : '100px')};
   }
 `
 

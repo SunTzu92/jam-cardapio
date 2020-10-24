@@ -28,7 +28,7 @@ export const Content = styled.div`
 
   @media (max-width: 768px) {
     padding: 1rem;
-    max-width: 350px;
+    max-width: ${({ isPortrait }) => (isPortrait ? '350px' : '560px')};
   }
 `
 
@@ -74,10 +74,15 @@ export const Card = styled.div`
   flex-direction: column;
 
   @media (max-width: 768px) {
-    max-width: 300px;
+    max-width: ${({ isPortrait }) => (isPortrait ? '350px' : '560px')};
   }
 `
 
 export const CardTitle = styled.h3`
   text-align: center;
+`
+
+export const OrientationView = styled.div`
+  display: flex;
+  flex-direction: ${({ isPortrait }) => (isPortrait ? 'column' : 'row')};
 `

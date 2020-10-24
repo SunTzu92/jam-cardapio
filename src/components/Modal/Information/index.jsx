@@ -13,7 +13,7 @@ const InformationWrapper = ({ descricao, opcoes, preco, observacoes, legenda }) 
   const exibirPreco = !opcoes.length
 
   return (
-    <>
+    <S.Container>
       <S.CardDescription>
         <span>
           <strong>DESCRIÇÃO: </strong>
@@ -60,7 +60,7 @@ const InformationWrapper = ({ descricao, opcoes, preco, observacoes, legenda }) 
           {legenda.meiaPorcao && <IconMeiaPorcao white />}
         </S.Icons>
       </S.Classificacao>
-    </>
+    </S.Container>
   )
 }
 
