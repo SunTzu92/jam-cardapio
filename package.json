@@ -28,7 +28,7 @@
         "redux-devtools-extension": "^2.13.8",
         "reselect": "^4.0.0",
         "slick-carousel": "^1.8.1",
-        "slugify": "^1.4.5",
+        "slugify": "^1.4.6",
         "styled-components": "^5.2.0"
     },
     "eslintConfig": {
